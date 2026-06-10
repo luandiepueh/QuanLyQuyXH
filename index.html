@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cập nhật phần mềm Quản lý Quỹ Xã hội</title>
+<style>
+  body { font-family: Arial, Helvetica, sans-serif; max-width: 640px; margin: 40px auto; padding: 0 16px; color: #222; }
+  h1 { font-size: 1.4rem; }
+  .version { display: inline-block; background: #e6f4ea; color: #0a7c3f; padding: 4px 12px; border-radius: 999px; font-weight: bold; }
+  ul { line-height: 1.6; }
+  a.btn { display: inline-block; margin-top: 16px; background: #0a7c3f; color: #fff; padding: 10px 20px; border-radius: 6px; text-decoration: none; }
+</style>
+</head>
+<body>
+  <h1>Phần mềm Quản lý Quỹ Xã hội</h1>
+  <p>Phiên bản mới nhất: <span class="version" id="version">đang tải...</span></p>
+  <p><strong>Cập nhật mới nhất:</strong></p>
+  <ul id="changelog"></ul>
+  <a class="btn" id="download" href="#" target="_blank">Tải về phiên bản mới nhất</a>
+
+  <script>
+    fetch('version.json')
+      .then(r => r.json())
+      .then(data => {
+        document.getElementById('version').textContent = data.version;
+        document.getElementById('download').href = data.download_url;
+        const ul = document.getElementById('changelog');
+        (data.changelog || []).forEach(item => {
+          const li = document.createElement('li');
+          li.textContent = item;
+          ul.appendChild(li);
+        });
+      });
+  </script>
+</body>
+</html>
