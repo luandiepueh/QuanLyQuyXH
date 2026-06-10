@@ -1,8 +1,10 @@
 {
-  "version": "F1.0.1",
+  "version": "F1.0.2",
   "release_date": "2026-06-10",
-  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.0.1/QuanLyQuyXH_F1.0.1.zip",
+  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.0.2/QuanLyQuyXH_F1.0.2.zip",
   "changelog": [
-    "Phiên bản đầu tiên hỗ trợ kiểm tra & cập nhật tự động"
+    "Sửa lỗi 'list index out of range' khi nhập số tài khoản ngân hàng ở Hệ thống / Thông tin đơn vị",
+    "Báo cáo tháng: thêm dòng Lũy kế từ đầu năm (thu/chi/tồn lũy kế đến hết kỳ báo cáo)",
+    "Sửa lỗi thủ quỹ không sửa được biên lai do chính mình lập và không thấy biên lai của mình trong bảng kê ngày"
   ]
 }
