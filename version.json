@@ -1,11 +1,10 @@
 {
-  "version": "F1.0.4",
+  "version": "F1.0.5",
   "release_date": "2026-06-11",
-  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.0.4/QuanLyQuyXH_F1.0.4.zip",
+  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.0.5/QuanLyQuyXH_F1.0.5.zip",
   "changelog": [
-    "Sửa lỗi giao diện: số tiền bị tràn khung và khoảng trống thừa giữa form nhập liệu và lịch sử chứng từ (phiếu thu, phiếu chi, báo có, báo nợ)",
-    "Cập nhật mẫu Biên lai thu tiền theo Mẫu C45-BB (TT 107/2017/TT-BTC): bỏ chữ ký Thủ trưởng đơn vị, hiển thị rõ số tiền thu, thêm trường Loại tiền (VNĐ/USD/EUR/JPY)",
-    "Sửa lỗi Bảng công khai thiếu một số phiếu thu hợp lệ",
-    "Sửa lỗi tạo biên lai ở Quỹ Biển Đảo bị báo lỗi Internal Server Error"
+    "Sửa lỗi Mục lục thu khi lập biên lai ở quỹ Cứu trợ và Biển đảo bị mặc định về 22.01 - Thu ủng hộ VNN, nay hiển thị đúng mục lục thu của từng quỹ",
+    "Cho phép thủ quỹ và kế toán in lại biên lai đã chốt vào bảng kê / đã chuyển Phiếu Thu",
+    "Bảng cân đối số phát sinh tài khoản (S04-TH): bỏ dòng Quốc hiệu để tránh lệch khung khi in, sửa lỗi mất cột Số dư cuối kỳ - Có khi in"
   ]
 }
