@@ -1,11 +1,11 @@
 {
-  "version": "F1.0.3",
+  "version": "F1.0.4",
   "release_date": "2026-06-11",
-  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.0.3/QuanLyQuyXH_F1.0.3.zip",
+  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.0.4/QuanLyQuyXH_F1.0.4.zip",
   "changelog": [
-    "Thêm báo cáo Tình hình tài chính",
-    "Bổ sung thông tin công khai",
-    "Sửa lỗi tự động cập nhật bị treo khi tải và cài bản mới (cửa sổ cập nhật giờ hiển thị tiến trình thay vì chạy ẩn)",
-    "Sửa một số lỗi khác"
+    "Sửa lỗi giao diện: số tiền bị tràn khung và khoảng trống thừa giữa form nhập liệu và lịch sử chứng từ (phiếu thu, phiếu chi, báo có, báo nợ)",
+    "Cập nhật mẫu Biên lai thu tiền theo Mẫu C45-BB (TT 107/2017/TT-BTC): bỏ chữ ký Thủ trưởng đơn vị, hiển thị rõ số tiền thu, thêm trường Loại tiền (VNĐ/USD/EUR/JPY)",
+    "Sửa lỗi Bảng công khai thiếu một số phiếu thu hợp lệ",
+    "Sửa lỗi tạo biên lai ở Quỹ Biển Đảo bị báo lỗi Internal Server Error"
   ]
 }
