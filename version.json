@@ -1,10 +1,11 @@
 {
-  "version": "F1.0.5",
-  "release_date": "2026-06-11",
-  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.0.5/QuanLyQuyXH_F1.0.5.zip",
+  "version": "F1.0.6",
+  "release_date": "2026-06-14",
+  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.0.6/QuanLyQuyXH_F1.0.6.zip",
   "changelog": [
-    "Sửa lỗi Mục lục thu khi lập biên lai ở quỹ Cứu trợ và Biển đảo bị mặc định về 22.01 - Thu ủng hộ VNN, nay hiển thị đúng mục lục thu của từng quỹ",
-    "Cho phép thủ quỹ và kế toán in lại biên lai đã chốt vào bảng kê / đã chuyển Phiếu Thu",
-    "Bảng cân đối số phát sinh tài khoản (S04-TH): bỏ dòng Quốc hiệu để tránh lệch khung khi in, sửa lỗi mất cột Số dư cuối kỳ - Có khi in"
+    "Thêm Dashboard Mục tiêu Thu trong năm: đặt mục tiêu, theo dõi lũy kế năm và thu trong tháng trực quan bằng biểu đồ",
+    "Bổ sung báo cáo B02, B03, B04 theo Thông tư 41/2022/TT-BTC",
+    "Thêm mẫu in Ủy nhiệm chi (UNC) cho nhiều ngân hàng",
+    "Sửa một số lỗi hiển thị và in ấn"
   ]
 }

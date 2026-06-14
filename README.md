@@ -20,7 +20,7 @@ git init
 git add .
 git commit -m "Khoi tao trang cap nhat"
 git branch -M main
-git remote add origin https://github.com/<username>/<repo>.git
+git remote add origin https://github.com/luandiepueh/<QuanLyQuyXH>.git
 git push -u origin main
 ```
 
