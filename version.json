@@ -1,8 +1,11 @@
 {
-  "version": "F1.0.7",
-  "release_date": "2026-06-14",
-  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.0.7/QuanLyQuyXH_F1.0.7.zip",
+  "version": "F1.0.8",
+  "release_date": "2026-06-16",
+  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.0.8/QuanLyQuyXH_F1.0.8.zip",
   "changelog": [
-    "Thêm thông báo tự động khi có phiên bản mới (badge + thông báo góc màn hình)"
+    "Sửa lỗi kết chuyển cuối kỳ: kết quả hoạt động nay đi đúng vào TK 421 (chưa phân phối) thay vì TK 412, đúng theo Điều 20 TT 41/2022",
+    "Sau khi kết chuyển, tự động mở chứng từ phân phối kết quả (421 → 412) đã điền sẵn số liệu để xác nhận 1 chạm",
+    "Sửa lỗi phân loại báo cáo B02: TK 511 nay phân vào dòng Doanh thu tài trợ (mã 500) thay vì NSNN cấp",
+    "Thông tin đơn vị: sau khi lưu số dư tiền mặt/ngân hàng mà chưa nhập bên Có đối ứng, hệ thống tự dẫn sang trang Số dư đầu kỳ để nhập TK nguồn kinh phí"
   ]
 }
