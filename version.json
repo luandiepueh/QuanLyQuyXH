@@ -1,12 +1,14 @@
 {
-  "version": "F1.0.9",
-  "release_date": "2026-06-16",
-  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.0.9/QuanLyQuyXH_F1.0.9.zip",
+  "version": "F1.0.10",
+  "release_date": "2026-06-17",
+  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.0.10/QuanLyQuyXH_F1.0.10.zip",
   "changelog": [
-    "Công khai nguồn quỹ: hiển thị đối tượng (tên người nộp/đơn vị chuyển khoản) vào cột Đối tượng cho phiếu thu PT và báo có BC",
-    "Công khai nguồn quỹ: thêm tab lọc Thu tiền mặt / Thu chuyển khoản, tổng tiền cập nhật theo tab đang chọn",
-    "Công khai nguồn quỹ: bảng tổng kết hiển thị thêm dòng 'Trong đó: Thu tiền mặt / Thu chuyển khoản' khi chọn tab lọc",
-    "Công khai nguồn quỹ: tiêu đề báo cáo tự động gắn tên quỹ từ thông tin đơn vị",
-    "Công khai nguồn quỹ: sửa lỗi số tiền in lệch ngoài viền bảng khi xuất PDF/in"
+    "Bảng kê biên lai: gộp cột Tên/Địa chỉ thành cột Diễn giải (họ tên, địa chỉ, nội dung thu trên một dòng)",
+    "Bảng kê biên lai: tiêu đề tự động theo tên quỹ đang hoạt động (không còn hardcode)",
+    "Bảng kê biên lai: header chuẩn văn bản nhà nước — tên đơn vị và quốc hiệu có gạch chân đúng vị trí",
+    "Bảng kê biên lai: chữ ký Người lập lấy từ Thông tin đơn vị (tên thủ quỹ)",
+    "Bảng kê biên lai: hiển thị tổng số biên lai trong dòng Tổng cộng",
+    "Phân quyền: Admin không bị chặn bởi bất kỳ trang nào trong module biên lai",
+    "Phân quyền: Thủ quỹ chỉ truy cập được module biên lai, không vào được trang kế toán"
   ]
 }
