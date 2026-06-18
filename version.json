@@ -1,14 +1,13 @@
 {
-  "version": "F1.0.10",
-  "release_date": "2026-06-17",
-  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.0.10/QuanLyQuyXH_F1.0.10.zip",
+  "version": "F1.0.11",
+  "release_date": "2026-06-18",
+  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.0.11/QuanLyQuyXH_F1.0.11.zip",
   "changelog": [
-    "Bảng kê biên lai: gộp cột Tên/Địa chỉ thành cột Diễn giải (họ tên, địa chỉ, nội dung thu trên một dòng)",
-    "Bảng kê biên lai: tiêu đề tự động theo tên quỹ đang hoạt động (không còn hardcode)",
-    "Bảng kê biên lai: header chuẩn văn bản nhà nước — tên đơn vị và quốc hiệu có gạch chân đúng vị trí",
-    "Bảng kê biên lai: chữ ký Người lập lấy từ Thông tin đơn vị (tên thủ quỹ)",
-    "Bảng kê biên lai: hiển thị tổng số biên lai trong dòng Tổng cộng",
-    "Phân quyền: Admin không bị chặn bởi bất kỳ trang nào trong module biên lai",
-    "Phân quyền: Thủ quỹ chỉ truy cập được module biên lai, không vào được trang kế toán"
+    "Chế độ cửa sổ desktop mặc định: chạy py app.py không còn mở trình duyệt, luôn mở cửa sổ ứng dụng",
+    "Fix link thoát ra trình duyệt hệ thống: các link Sao lưu, Quản lý đối tượng, In biên lai... không còn mở Chrome/Edge khi dùng chế độ cửa sổ",
+    "Fix trang in không yêu cầu đăng nhập lại: In bảng kê, in biên lai mở đúng trang in trong cùng cửa sổ",
+    "Thêm chuông thông báo biên lai chưa lập bảng kê: hiển thị số lượng biên lai chờ xử lý trên thanh menu, cập nhật tự động mỗi 60 giây",
+    "Cảnh báo khi mở phần mềm: nếu có biên lai từ ngày hôm trước chưa lập bảng kê sẽ hiện thông báo để kế toán xử lý",
+    "Thu gọn thanh menu: tối ưu kích thước cho cửa sổ 1280px, thay logo xoay bằng chuông thông báo có chức năng"
   ]
 }
