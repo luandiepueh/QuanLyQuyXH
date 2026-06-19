@@ -1,13 +1,9 @@
 {
-  "version": "F1.0.12",
-  "release_date": "2026-06-18",
-  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.0.12/QuanLyQuyXH_F1.0.12.zip",
+  "version": "F1.0.13",
+  "release_date": "2026-06-19",
+  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.0.13/QuanLyQuyXH_F1.0.13.zip",
   "changelog": [
-    "Fix cập nhật tự động treo vô thời hạn: thêm giới hạn thời gian cứng 5 phút và phát hiện kết nối đình trệ — tải xong hoặc thông báo lỗi rõ ràng, không quay mãi",
-    "Hiển thị tiến trình tải: thanh tiến độ phần trăm, thời gian đã chờ, gợi ý khi chờ lâu, link tải thủ công khi lỗi",
-    "Chế độ cửa sổ desktop mặc định: chạy py app.py luôn mở cửa sổ ứng dụng, không mở trình duyệt",
-    "Fix link thoát ra trình duyệt hệ thống: Sao lưu, In biên lai... không còn mở Chrome/Edge trong chế độ cửa sổ",
-    "Fix trang in không yêu cầu đăng nhập lại: in bảng kê, in biên lai mở đúng trang trong cùng cửa sổ",
-    "Chuông thông báo biên lai chưa lập bảng kê: hiển thị số lượng biên lai chờ xử lý, cảnh báo khi mở phần mềm"
+    "Bảng cân đối số phát sinh: hướng dẫn mở khóa và kết chuyển lại khi TK 5113/711 còn số dư cuối kỳ sau khi chỉnh sửa chứng từ",
+    "Fix bút toán kết chuyển cuối năm ghi nhầm TK 7111 thay vì TK 5113 khi tài khoản nguồn bị thay đổi sau thời điểm khóa sổ"
   ]
 }
