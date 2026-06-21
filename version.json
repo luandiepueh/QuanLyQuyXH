@@ -1,9 +1,12 @@
 {
-  "version": "F1.0.13",
-  "release_date": "2026-06-19",
-  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.0.13/QuanLyQuyXH_F1.0.13.zip",
+  "version": "F1.0.14",
+  "release_date": "2026-06-21",
+  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.0.14/QuanLyQuyXH_F1.0.14.zip",
   "changelog": [
-    "Bảng cân đối số phát sinh: hướng dẫn mở khóa và kết chuyển lại khi TK 5113/711 còn số dư cuối kỳ sau khi chỉnh sửa chứng từ",
-    "Fix bút toán kết chuyển cuối năm ghi nhầm TK 7111 thay vì TK 5113 khi tài khoản nguồn bị thay đổi sau thời điểm khóa sổ"
+    "Quản lý Niên độ: hiển thị chi tiết bút toán kết chuyển (Nợ/Có/Số tiền) ngay trên trang — không mở tab mới",
+    "Quản lý Niên độ: thêm nút 'Tính lại KC' để tính lại kết chuyển mà không cần mở khóa sổ",
+    "Quản lý Niên độ: thêm nút 'In chứng từ' in Phiếu hạch toán C45-BB (KT) cho chứng từ kết chuyển",
+    "Quản lý Niên độ: chi tiết KC chỉ hiển thị khi đang ở đúng niên độ làm việc",
+    "Fix lỗi bảng cân đối sai TK 5113/711x sau mỗi lần khởi động lại phần mềm (migration mù quáng đổi TK hợp lệ)"
   ]
 }
