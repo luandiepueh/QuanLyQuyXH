@@ -1,12 +1,12 @@
 {
-  "version": "F1.0.14",
-  "release_date": "2026-06-21",
-  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.0.14/QuanLyQuyXH_F1.0.14.zip",
+  "version": "F1.0.15",
+  "release_date": "2026-06-23",
+  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.0.15/QuanLyQuyXH_F1.0.15.zip",
   "changelog": [
-    "Quản lý Niên độ: hiển thị chi tiết bút toán kết chuyển (Nợ/Có/Số tiền) ngay trên trang — không mở tab mới",
-    "Quản lý Niên độ: thêm nút 'Tính lại KC' để tính lại kết chuyển mà không cần mở khóa sổ",
-    "Quản lý Niên độ: thêm nút 'In chứng từ' in Phiếu hạch toán C45-BB (KT) cho chứng từ kết chuyển",
-    "Quản lý Niên độ: chi tiết KC chỉ hiển thị khi đang ở đúng niên độ làm việc",
-    "Fix lỗi bảng cân đối sai TK 5113/711x sau mỗi lần khởi động lại phần mềm (migration mù quáng đổi TK hợp lệ)"
+    "Sửa lỗi 'out of range' khi nhập biên lai trực tiếp (lỗi IndexError trong confirm_import)",
+    "Sửa lỗi session SQLAlchemy bị khóa sau khi nhập biên lai lỗi — các lần nhập tiếp theo không còn báo lỗi liên tiếp",
+    "Sửa lỗi đọc số tiền bằng chữ ≥ 10 tỷ đồng khi in biên lai (IndexError trong amount_to_words)",
+    "Thủ quỹ nhập biên lai ngày trước: nút 'Tạo biên lai mới' tự điền sẵn ngày đang xem trên bảng kê",
+    "Sau khi lưu biên lai, thủ quỹ được chuyển về bảng kê của đúng ngày biên lai (thay vì danh sách chung)"
   ]
 }
