@@ -1,9 +1,10 @@
 {
-  "version": "F1.0.16",
+  "version": "F1.0.17",
   "release_date": "2026-06-24",
-  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.0.16/QuanLyQuyXH_F1.0.16.zip",
+  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.0.17/QuanLyQuyXH_F1.0.17.zip",
   "changelog": [
-    "Footer: hiển thị tên đơn vị (Phường/Xã từ Thông tin đơn vị) và tên quỹ đang hoạt động tại góc dưới phải — nổi bật theo màu theme từng quỹ",
-    "Đổi quỹ: footer cập nhật ngay tên đơn vị và màu sắc theo quỹ mới được chọn"
+    "Thủ quỹ xem được toàn bộ biên lai của quỹ (không còn giới hạn chỉ biên lai do mình lập)",
+    "In hàng loạt: modal mới với 2 chế độ — in theo khoảng ngày hoặc tích chọn từng biên lai",
+    "Bảng kê đã chuyển: hiển thị đúng phiếu thu theo quỹ đang hoạt động (fix lỗi hiện nhầm quỹ khác)"
   ]
 }
