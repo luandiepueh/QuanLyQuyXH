@@ -1,10 +1,11 @@
 {
-  "version": "F1.0.17",
-  "release_date": "2026-06-24",
-  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.0.17/QuanLyQuyXH_F1.0.17.zip",
+  "version": "F1.0.18",
+  "release_date": "2026-06-25",
+  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.0.18/QuanLyQuyXH_F1.0.18.zip",
   "changelog": [
-    "Thủ quỹ xem được toàn bộ biên lai của quỹ (không còn giới hạn chỉ biên lai do mình lập)",
-    "In hàng loạt: modal mới với 2 chế độ — in theo khoảng ngày hoặc tích chọn từng biên lai",
-    "Bảng kê đã chuyển: hiển thị đúng phiếu thu theo quỹ đang hoạt động (fix lỗi hiện nhầm quỹ khác)"
+    "Quỹ Biển Đảo: sửa lỗi Báo Nợ báo lỗi 500 khi chưa khai báo tài khoản ngân hàng",
+    "Quỹ Biển Đảo: mục lục 32.01 (Nộp về MTTQ TP) nay hiển thị đúng TK Nợ 6118 khi lập phiếu chi",
+    "Quỹ Biển Đảo: tự động sửa tên TK 6118 bị ô nhiễm khi khởi động lần đầu",
+    "Quỹ Biển Đảo: trang quản lý mục lục tài chính nay hiển thị đúng nhóm 24.xx/32.xx"
   ]
 }
