@@ -1,11 +1,11 @@
 {
-  "version": "F1.0.18",
-  "release_date": "2026-06-25",
-  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.0.18/QuanLyQuyXH_F1.0.18.zip",
+  "version": "F1.0.20",
+  "release_date": "2026-06-26",
+  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.0.20/QuanLyQuyXH_F1.0.20.zip",
   "changelog": [
-    "Quỹ Biển Đảo: sửa lỗi Báo Nợ báo lỗi 500 khi chưa khai báo tài khoản ngân hàng",
-    "Quỹ Biển Đảo: mục lục 32.01 (Nộp về MTTQ TP) nay hiển thị đúng TK Nợ 6118 khi lập phiếu chi",
-    "Quỹ Biển Đảo: tự động sửa tên TK 6118 bị ô nhiễm khi khởi động lần đầu",
-    "Quỹ Biển Đảo: trang quản lý mục lục tài chính nay hiển thị đúng nhóm 24.xx/32.xx"
+    "Biên lai: thêm nút tải file Excel mẫu trực tiếp từ màn hình import",
+    "Sửa lỗi số tiền bị nhân 10 lần khi mở form sửa biên lai (lỗi float .0)",
+    "Sửa hiển thị số tiền thiếu dấu phân cách nghìn khi mở form biên lai",
+    "Tiện ích mới: Import sổ tiền mặt từ Excel (tạo phiếu thu PT / phiếu chi PC tự động)"
   ]
 }
