@@ -1,11 +1,14 @@
 {
-  "version": "F1.0.20",
-  "release_date": "2026-06-26",
-  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.0.20/QuanLyQuyXH_F1.0.20.zip",
+  "version": "F1.0.21",
+  "release_date": "2026-06-27",
+  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.0.21/QuanLyQuyXH_F1.0.21.zip",
   "changelog": [
-    "Biên lai: thêm nút tải file Excel mẫu trực tiếp từ màn hình import",
-    "Sửa lỗi số tiền bị nhân 10 lần khi mở form sửa biên lai (lỗi float .0)",
-    "Sửa hiển thị số tiền thiếu dấu phân cách nghìn khi mở form biên lai",
-    "Tiện ích mới: Import sổ tiền mặt từ Excel (tạo phiếu thu PT / phiếu chi PC tự động)"
+    "Thêm chức năng báo cáo sử dụng Kinh phí TP",
+    "Báo cáo KP TP: nút In / Sửa / Xóa trong bảng lịch sử; sửa lỗi BC thu chưa bị loại khỏi modal khi đã chốt báo cáo",
+    "Báo cáo KP TP: Nội dung chi hiển thị đầy đủ mã + tên mục lục (vd: 30.15 Các nội dung khác) và mô tả chứng từ",
+    "Báo cáo KP TP: layout full-width, font chữ bảng lịch sử tăng 50%, địa danh lấy động từ thông tin đơn vị",
+    "Thông tin đơn vị: sửa lỗi mất dữ liệu ngân hàng sau khi đóng sổ năm; khóa section Số dư & Ngân hàng, cần xác nhận mới sửa được",
+    "Sổ chi: loại bỏ chứng từ chi kinh phí TP (nguồn TK 337) khỏi sổ chi quỹ",
+    "Sổ chi tiết theo đối tượng: tách cột Lũy kế thành Nợ / Có, không hiển thị dấu âm"
   ]
 }
