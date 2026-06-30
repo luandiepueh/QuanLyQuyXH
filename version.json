@@ -1,11 +1,11 @@
 {
-  "version": "F1.0.22",
-  "release_date": "2026-06-29",
-  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.0.22/QuanLyQuyXH_F1.0.22.zip",
+  "version": "F1.0.23",
+  "release_date": "2026-06-30",
+  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.0.23/QuanLyQuyXH_F1.0.23.zip",
   "changelog": [
-    "Đồng bộ giao diện Ux, Ui các form, các báo cáo, các mẫu in",
-    "Fix số dư ngân hàng không hiển thị khi làm việc ở niên độ cũ (VD: 2025) trong năm 2026",
-    "Đánh số lại chứng từ: mặc định đúng niên độ đang làm việc; chặn thay đổi nếu năm đã khóa sổ",
-    "Mẫu biên bản kiểm kê quỹ tiền mặt (08a-TT): bản in không có header/footer trình duyệt"
+    "Thay đổi giao diện người dùng đồng bộ",
+    "Sửa lỗi hiển thị ngân hàng",
+    "Giao diện đăng nhập mới",
+    "Trợ lý Bông"
   ]
 }
