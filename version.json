@@ -1,11 +1,10 @@
 {
-  "version": "F1.0.23",
+  "version": "F1.0.24",
   "release_date": "2026-06-30",
-  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.0.23/QuanLyQuyXH_F1.0.23.zip",
+  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.0.24/QuanLyQuyXH_F1.0.24.zip",
   "changelog": [
-    "Thay đổi giao diện người dùng đồng bộ",
-    "Sửa lỗi hiển thị ngân hàng",
-    "Giao diện đăng nhập mới",
-    "Trợ lý Bông"
+    "Cập nhật thu lãi tiền gửi sang TK 515",
+    "Thêm chức năng xóa hàng loạt khi import bằng Excel 2 lần",
+    "Sửa lỗi mở niên độ năm N+1"
   ]
 }
