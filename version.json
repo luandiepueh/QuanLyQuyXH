@@ -1,10 +1,11 @@
 {
-  "version": "F1.0.24",
-  "release_date": "2026-06-30",
-  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.0.24/QuanLyQuyXH_F1.0.24.zip",
+  "version": "F1.0.25",
+  "release_date": "2026-07-01",
+  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.0.25/QuanLyQuyXH_F1.0.25.zip",
   "changelog": [
-    "Cập nhật thu lãi tiền gửi sang TK 515",
-    "Thêm chức năng xóa hàng loạt khi import bằng Excel 2 lần",
-    "Sửa lỗi mở niên độ năm N+1"
+    "Thêm tiện ích thay đổi Font và giao diện",
+    "Sửa lỗi import bằng Excel (chặn sai niên độ, kiểm tra số dư, phát hiện trùng)",
+    "Chức năng đồng bộ đối tượng liên quỹ",
+    "Cập nhật và cải tiến"
   ]
 }
