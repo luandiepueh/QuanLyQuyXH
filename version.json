@@ -1,11 +1,9 @@
 {
-  "version": "F1.0.25",
-  "release_date": "2026-07-01",
-  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.0.25/QuanLyQuyXH_F1.0.25.zip",
+  "version": "F1.0.26",
+  "release_date": "2026-07-02",
+  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.0.26/QuanLyQuyXH_F1.0.26.zip",
   "changelog": [
-    "Thêm tiện ích thay đổi Font và giao diện",
-    "Sửa lỗi import bằng Excel (chặn sai niên độ, kiểm tra số dư, phát hiện trùng)",
-    "Chức năng đồng bộ đối tượng liên quỹ",
-    "Cập nhật và cải tiến"
+    "Cập nhật đổi tên data dữ liệu theo từng phường, xã (thực hiện tại Thông tin đơn vị → nhấn Lưu)",
+    "Fix và nâng cao trải nghiệm"
   ]
 }
