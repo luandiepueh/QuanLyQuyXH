@@ -1,12 +1,9 @@
 {
-  "version": "F1.0.27",
-  "release_date": "2026-07-05",
-  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.0.27/QuanLyQuyXH_F1.0.27.zip",
+  "version": "F1.0.28",
+  "release_date": "2026-07-06",
+  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.0.28/QuanLyQuyXH_F1.0.28.zip",
   "changelog": [
-    "Cập nhật giao diện glass toàn khối",
-    "Thiết kế lại form nhập liệu gọn và sạch hơn",
-    "Cập nhật sổ quỹ tiền mặt với người lập sổ là thủ quỹ",
-    "Fix lỗi hiển thị các mục lục cũ không dùng",
-    "Nâng cao trải nghiệm hoạt cảnh chuyển quỹ mượt mà"
+    "Thêm chức năng in UNC, GR và bảng đối chiếu Kho bạc nhà nước",
+    "Fix chức năng xóa chứng từ"
   ]
 }
