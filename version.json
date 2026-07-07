@@ -1,9 +1,13 @@
 {
-  "version": "F1.0.28",
-  "release_date": "2026-07-06",
-  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.0.28/QuanLyQuyXH_F1.0.28.zip",
+  "version": "F1.0.29",
+  "release_date": "2026-07-07",
+  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.0.29/QuanLyQuyXH_F1.0.29.zip",
   "changelog": [
-    "Thêm chức năng in UNC, GR và bảng đối chiếu Kho bạc nhà nước",
-    "Fix chức năng xóa chứng từ"
+    "Đối tượng đã được đồng bộ vào UNC, Phiếu chi",
+    "Sửa lại Hội tên Hội đồng quản lý",
+    "Thêm sổ chi quản lý Quỹ biển đảo",
+    "Sủa lỗi hiển thị biên lai ở N+1",
+    "Fix lỗi đồng bộ thu hộ chi hộ",
+    "Hint: Chức năng xuất file Zip đồng bộ DVC kho bạc ở phiên bản F1.0.3x. Stay Tunes ^^"
   ]
 }
