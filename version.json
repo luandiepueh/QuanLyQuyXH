@@ -1,9 +1,10 @@
 {
-  "version": "F1.0.30",
+  "version": "F1.0.31",
   "release_date": "2026-07-09",
-  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.0.30/QuanLyQuyXH_F1.0.30.zip",
+  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.0.31/QuanLyQuyXH_F1.0.31.zip",
   "changelog": [
-    "Thêm chức năng Phóng to-thu nhỏ màn hình",
-    "Sửa lỗi đồng bộ tên quỹ biển đảo ở một số sổ"
+    "Thêm chức năng xuất file Zip đính kèm lên DVC KBNN (Beta)",
+    "Fix lỗi đồng bộ N-1 ở biên lai và bảng kê",
+    "Tăng khoảng cách các ô ký ở các sổ kế toán và báo cáo rộng rãi hơn"
   ]
 }
