@@ -1,11 +1,9 @@
 {
-  "version": "F1.0.32",
-  "release_date": "2026-07-11",
-  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.0.32/QuanLyQuyXH_F1.0.32.zip",
+  "version": "F1.0.33",
+  "release_date": "2026-07-15",
+  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.0.33/QuanLyQuyXH_F1.0.33.zip",
   "changelog": [
-    "Fix một số máy mất Active khi đổi mạng hoặc chuyển wifi",
-    "Shortcut nhập liệu ở màn hình chủ",
-    "Thêm báo cáo tháng dạng dọc ở Quỹ Vì Người Nghèo",
-    "Thêm cảnh báo khi xóa bảng kê biên lai"
+    "Thêm dòng theo dõi nguồn KP TP cấp tại báo cáo tháng Quỹ Vì Người Nghèo",
+    "Thêm báo cáo tháng dạng đứng ở quỹ vì người nghèo"
   ]
 }
