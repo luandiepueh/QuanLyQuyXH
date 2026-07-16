@@ -1,9 +1,9 @@
 {
-  "version": "F1.0.33",
-  "release_date": "2026-07-15",
-  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.0.33/QuanLyQuyXH_F1.0.33.zip",
+  "version": "F1.0.34",
+  "release_date": "2026-07-16",
+  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.0.34/QuanLyQuyXH_F1.0.34.zip",
   "changelog": [
-    "Thêm dòng theo dõi nguồn KP TP cấp tại báo cáo tháng Quỹ Vì Người Nghèo",
-    "Thêm báo cáo tháng dạng đứng ở quỹ vì người nghèo"
+    "Sửa lỗi nghiêm trọng: biên lai cũ bị mất (hiển thị trống, số biên lai bị đánh lại từ 01) sau khi tách CSDL biên lai theo quỹ ở bản F1.0.33",
+    "Dữ liệu biên lai cũ được TỰ ĐỘNG khôi phục đúng ngay lần đăng nhập đầu tiên sau khi cập nhật, không cần thao tác gì thêm"
   ]
 }
