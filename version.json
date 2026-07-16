@@ -6,7 +6,7 @@
     "Sửa báo cáo tháng đếm trùng tiền TK 337 (giữ hộ MTTQ) vào \"Tồn đầu\" khi số dư 337 còn tồn qua năm mới",
     "Thêm \"Sao lưu toàn bộ 3 quỹ\" (1 file zip gồm đủ 6 DB) và phục hồi có bước xác nhận riêng khi ghi đè cả 3 quỹ cùng lúc",
     "Sửa ngày hiển thị sai định dạng (mm/dd/yyyy thay vì dd/mm/yyyy) khi thêm dòng mới ở trang Thông tin đơn vị",
-    "Xóa mục lục thừa từ phần mềm Kế toán Công đoàn cũ còn sót trong dữ liệu khởi tạo mặc định, từng gây cảnh báo \"tự dọn mục lục lạ\" khi tạo DB quỹ Cứu trợ/Biển Đảo mới",
+    "Xóa các mục lục thừa không thuộc quỹ còn sót trong dữ liệu khởi tạo mặc định, từng gây cảnh báo \"tự dọn mục lục lạ\" khi tạo DB quỹ Cứu trợ/Biển Đảo mới",
     "Dữ liệu (DB, biên lai, cấu hình) chuyển sang lưu trong thư mục Data/ cạnh EXE — tự động di dời dữ liệu cũ 1 lần, không mất dữ liệu"
   ]
 }
