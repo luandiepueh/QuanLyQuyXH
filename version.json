@@ -1,13 +1,10 @@
 {
-  "version": "F1.0.36",
-  "release_date": "2026-07-19",
-  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.0.36/QuanLyQuyXH_F1.0.36.zip",
+  "version": "F1.0.37",
+  "release_date": "2026-07-23",
+  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.0.37/QuanLyQuyXH_F1.0.37.zip",
   "changelog": [
-    "Thêm chức năng Log ghi lại lịch sử sửa, xóa, thêm dữ liệu của người dùng (để phục vụ tra cứu khi cần)",
-    "Thêm chức năng nhận diện theo màu của chứng từ",
-    "Sửa lỗi hiển thị TK337",
-    "Sửa bảng kê biên lai (bảng kê ngày, in bảng kê, in hàng loạt, in chọn) sắp xếp sai thứ tự khi số biên lai từ 10 trở lên (vd hiện 10,11,12,...,9 thay vì đúng thứ tự 9,10,11,12,...)",
-    "Sửa lỗi in bảng kê bị lỗi khi thao tác qua ứng dụng WiFi chia sẻ cho thủ quỹ",
-    "Sửa hiển thị \"-0\" (số âm vô nghĩa) ở dòng số dư đầu kỳ TK 337 trong báo cáo tháng"
+    "Bổ sung chức năng nhập đa dòng định khoản",
+    "Cập nhật logo 3 quỹ",
+    "Nâng cao trải nghiệm người dùng"
   ]
 }
