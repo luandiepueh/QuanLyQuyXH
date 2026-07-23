@@ -1,13 +1,10 @@
 {
-  "version": "F1.0.38",
+  "version": "F1.0.37",
   "release_date": "2026-07-23",
-  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.0.38/QuanLyQuyXH_F1.0.38.zip",
+  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.0.37/QuanLyQuyXH_F1.0.37.zip",
   "changelog": [
-    "Bổ sung khai báo Tỉnh/Thành cho đơn vị (34 tỉnh/thành, mặc định TP.HCM) — tỉnh/thành khác được tự tùy chỉnh mục lục Thu/Chi riêng",
-    "Sửa lỗi mất ô \"Mục chi tiết\" khi chọn mục Chi phí quản lý bộ máy (32.11) ở Phiếu Chi quỹ Biển Đảo; bổ sung ô này cho Báo Nợ",
-    "Thêm tab chuyển Mục lục Thu/Chi ở màn Hệ thống → Mục lục tài chính",
-    "Thêm lưới an toàn cho Báo cáo tháng, Sổ Thu, Sổ Chi — không còn bỏ sót số tiền khi hạch toán qua mục \"00 - Tự định khoản\"",
-    "Sửa lỗi chồng cột trong file Excel xuất Báo cáo tháng Biển Đảo (mục 32.11 bị đè bởi cột Ghi chú)",
-    "Dọn dẹp mục lục dư thừa còn sót từ phần mềm kế toán công đoàn ở quỹ Vì Người Nghèo"
+    "Bổ sung chức năng nhập đa dòng định khoản",
+    "Cập nhật logo 3 quỹ",
+    "Nâng cao trải nghiệm người dùng"
   ]
 }
