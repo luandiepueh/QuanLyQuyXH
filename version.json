@@ -1,13 +1,14 @@
 {
-  "version": "F1.0.39",
-  "release_date": "2026-07-23",
-  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.0.39/QuanLyQuyXH_F1.0.39.zip",
+  "version": "F1.0.40",
+  "release_date": "2026-07-26",
+  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.0.40/QuanLyQuyXH_F1.0.40.zip",
   "changelog": [
-    "Bổ sung khai báo Tỉnh/Thành cho đơn vị (34 tỉnh/thành, mặc định TP.HCM) — tỉnh/thành khác được tự tùy chỉnh mục lục Thu/Chi riêng",
-    "Sửa lỗi mất ô \"Mục chi tiết\" khi chọn mục Chi phí quản lý bộ máy (32.11) ở Phiếu Chi quỹ Biển Đảo; bổ sung ô này cho Báo Nợ",
-    "Thêm tab chuyển Mục lục Thu/Chi ở màn Hệ thống → Mục lục tài chính",
-    "Nâng cao độ chính xác Báo cáo tháng: tính Thu/Chi trực tiếp theo tài khoản kế toán (511/515/611), tự động đối chiếu số dư Tiền mặt + Ngân hàng và cảnh báo nếu phát hiện chênh lệch",
-    "Sửa lỗi chồng cột trong file Excel xuất Báo cáo tháng Biển Đảo",
-    "Dọn dẹp mục lục dư thừa còn sót từ phần mềm kế toán công đoàn ở quỹ Vì Người Nghèo"
+    "Thêm tiện ích \"Thêm báo cáo\" (Beta) ở menu Tiện ích — tự tạo báo cáo tùy chỉnh từ Danh sách chứng từ / Sổ cái tài khoản / Sổ chi tiết mục lục, xuất được Excel/Word",
+    "Tự động lưu trữ (đóng gói .zip) trọn bộ báo cáo tháng + B01-B04 + sổ sách của năm ngay khi khóa sổ chuyển niên độ",
+    "Cho phép hạch toán nhiều mục Thu/Chi trong cùng 1 Phiếu Thu/Chi/Báo Có/Báo Nợ (quỹ VNN) — các báo cáo liên quan đã tính đúng theo từng dòng",
+    "Hỗ trợ mở thêm nhiều Tài khoản Ngân hàng cùng gốc 1121 (đợt vận động mới) — mã kế toán tự cấp, chặn nhập trùng số tài khoản",
+    "Báo cáo tháng: cảnh báo tự động khi \"Tồn cuối kỳ\" lệch với số dư Tiền mặt + Ngân hàng thực tế",
+    "Sửa lỗi và nâng cao trải nghiệm ở nhiều báo cáo (Sổ Chi, Báo cáo tháng, Dashboard, Bảng cân đối tài khoản, B01-BCTC)",
+    "Gọn thanh menu: \"Trang chủ\" chỉ còn icon, \"Hệ thống\" chuyển lên cạnh \"Cập nhật\" với màu nổi bật hơn"
   ]
 }
