@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Xác thực biên lai</title>
+<style>
+  :root{
+    --ink:#12211a;
+    --ink-soft:#3f5750;
+    --paper:#f3f8f5;
+    --paper-raised:#ffffff;
+    --line:#d9e6de;
+    --brand-deep:#065f46;
+    --brand:#059669;
+    --brand-bright:#10b981;
+    --brand-mint:#bbf7d0;
+    --brand-mint-ink:#065f46;
+    --danger:#b91c1c;
+    --danger-bright:#dc2626;
+    --danger-tint:#fef2f2;
+    --danger-line:#fecaca;
+    --amber:#b45309;
+    --amber-bright:#d97706;
+    --shadow: 0 1px 2px rgba(6,31,23,.06), 0 12px 28px -14px rgba(6,31,23,.22);
+    --radius-lg: 20px;
+    --radius-md: 14px;
+    --font-ui: "Be Vietnam Pro", "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+    --font-mono: ui-monospace, "Cascadia Mono", "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    color-scheme: light dark;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --ink:#eaf3ee;
+      --ink-soft:#a9c2b8;
+      --paper:#0c1613;
+      --paper-raised:#132420;
+      --line:#22392f;
+      --brand-mint:#0f2a20;
+      --brand-mint-ink:#7ce7b8;
+      --danger-tint:#2a1414;
+      --danger-line:#5c2323;
+      --shadow: 0 1px 2px rgba(0,0,0,.4), 0 16px 32px -16px rgba(0,0,0,.6);
+    }
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    font-family:var(--font-ui);
+    background:var(--paper);
+    color:var(--ink);
+    min-height:100dvh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:28px 16px 60px;
+    -webkit-font-smoothing:antialiased;
+  }
+  h1,h2,h3{text-wrap:balance; margin:0;}
+  .page{ width:100%; max-width:460px; display:flex; flex-direction:column; gap:18px; }
+
+  .status-banner{
+    border-radius:var(--radius-lg);
+    padding:30px 24px 26px;
+    text-align:center;
+    color:#fff;
+    background:linear-gradient(160deg,var(--brand-deep) 0%,var(--brand) 55%,var(--brand-bright) 100%);
+    box-shadow:var(--shadow);
+    position:relative;
+    overflow:hidden;
+  }
+  .status-banner.state-invalid{ background:linear-gradient(160deg,#7f1d1d 0%,var(--danger) 55%,var(--danger-bright) 100%); }
+  .status-banner.state-unknown{ background:linear-gradient(160deg,#78350f 0%,var(--amber) 55%,var(--amber-bright) 100%); }
+  .status-banner::after{
+    content:"";
+    position:absolute; inset:0;
+    background:radial-gradient(120% 90% at 50% -10%, rgba(255,255,255,.16), transparent 60%);
+    pointer-events:none;
+  }
+  .badge-ring{
+    width:64px; height:64px; margin:0 auto 14px;
+    border-radius:50%;
+    background:rgba(255,255,255,.16);
+    border:1.5px solid rgba(255,255,255,.5);
+    display:flex; align-items:center; justify-content:center;
+  }
+  .badge-ring svg{ width:32px; height:32px; }
+  .badge-ring path{
+    stroke:#fff; stroke-width:2.6; fill:none;
+    stroke-linecap:round; stroke-linejoin:round;
+    stroke-dasharray:40; stroke-dashoffset:40;
+  }
+  @keyframes draw{ to{ stroke-dashoffset:0; } }
+  @media (prefers-reduced-motion: reduce){ .badge-ring path{ animation:none; stroke-dashoffset:0; } }
+
+  .status-banner h1{ font-size:21px; font-weight:800; letter-spacing:-.01em; }
+  .status-banner p{ margin:8px auto 0; font-size:13.5px; line-height:1.55; color:rgba(255,255,255,.88); max-width:320px; }
+
+  .fund-strip{
+    display:flex; align-items:center; gap:10px;
+    justify-content:center;
+    margin-top:16px; padding-top:14px;
+    border-top:1px solid rgba(255,255,255,.28);
+  }
+  .fund-mark{
+    width:26px; height:26px; border-radius:50%;
+    background:rgba(255,255,255,.92);
+    display:flex; align-items:center; justify-content:center;
+    font-size:12px; font-weight:800; color:var(--brand-deep);
+  }
+  .fund-strip span{ font-size:12.5px; font-weight:600; color:rgba(255,255,255,.92); }
+
+  .ticket{
+    background:var(--paper-raised);
+    border-radius:var(--radius-lg);
+    box-shadow:var(--shadow);
+    position:relative;
+    overflow:hidden;
+  }
+  .ticket-head{ padding:18px 22px 14px; display:flex; align-items:baseline; justify-content:space-between; gap:12px; }
+  .ticket-head .label{ font-size:11.5px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:var(--ink-soft); }
+  .ticket-head .code{ font-family:var(--font-mono); font-size:15px; font-weight:600; letter-spacing:.02em; }
+
+  .perforation{ position:relative; height:1px; margin:0 22px; background:repeating-linear-gradient(90deg, var(--line) 0 6px, transparent 6px 12px); }
+  .perforation::before,.perforation::after{ content:""; position:absolute; top:50%; transform:translateY(-50%); width:18px; height:18px; border-radius:50%; background:var(--paper); }
+  .perforation::before{ left:-31px; }
+  .perforation::after{ right:-31px; }
+
+  .ticket-rows{ padding:16px 22px 6px; display:flex; flex-direction:column; gap:0; }
+  .row{ display:flex; align-items:flex-start; justify-content:space-between; gap:16px; padding:10px 0; border-bottom:1px solid var(--line); }
+  .row:last-child{ border-bottom:none; }
+  .row .k{ font-size:13px; color:var(--ink-soft); flex-shrink:0; }
+  .row .v{ font-size:13.5px; font-weight:600; text-align:right; }
+
+  .amount-row{ padding:18px 22px 20px; text-align:right; }
+  .amount-row .k{ font-size:12px; color:var(--ink-soft); font-weight:600; letter-spacing:.03em; text-transform:uppercase; }
+  .amount-row .v{ font-size:30px; font-weight:800; letter-spacing:-.01em; font-variant-numeric:tabular-nums; color:var(--brand-deep); margin-top:2px; }
+  @media (prefers-color-scheme: dark){ .amount-row .v{ color:var(--brand-mint-ink); } }
+
+  .explainer{ background:var(--paper-raised); border-radius:var(--radius-md); box-shadow:var(--shadow); padding:18px 20px; }
+  .explainer h2{ font-size:14.5px; font-weight:700; margin-bottom:8px; display:flex; align-items:center; gap:8px; }
+  .explainer h2 .ico{ width:18px; height:18px; flex-shrink:0; color:var(--brand); }
+  .explainer p{ font-size:13px; line-height:1.65; color:var(--ink-soft); margin:0; }
+  .explainer b{ color:var(--ink); font-weight:600; }
+
+  footer{ text-align:center; margin-top:6px; font-size:11.5px; color:var(--ink-soft); line-height:1.6; }
+  footer b{ color:var(--ink); }
+
+  .hidden{ display:none !important; }
+</style>
+</head>
+<body>
+
+<main class="page">
+  <section class="status-banner" id="banner">
+    <div class="badge-ring">
+      <svg viewBox="0 0 24 24"><path id="badgePath" d=""/></svg>
+    </div>
+    <h1 id="statusTitle">Đang kiểm tra…</h1>
+    <p id="statusDesc">Đang xác minh chữ ký số của biên lai.</p>
+    <div class="fund-strip hidden" id="fundStrip">
+      <div class="fund-mark">Q</div>
+      <span id="fundName"></span>
+    </div>
+  </section>
+
+  <section class="ticket hidden" id="ticket">
+    <div class="ticket-head">
+      <span class="label">Biên lai thu tiền</span>
+      <span class="code" id="receiptCode">—</span>
+    </div>
+    <div class="perforation"></div>
+    <div class="ticket-rows">
+      <div class="row"><span class="k">Ngày lập</span><span class="v" id="receiptDate">—</span></div>
+      <div class="row"><span class="k">Người nộp</span><span class="v" id="receiptPayer">—</span></div>
+    </div>
+    <div class="amount-row">
+      <div class="k">Số tiền</div>
+      <div class="v" id="receiptAmount">—</div>
+    </div>
+  </section>
+
+  <section class="explainer">
+    <h2>
+      <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2 4 6v6c0 5 3.5 8.5 8 10 4.5-1.5 8-5 8-10V6l-8-4Z"/></svg>
+      Vì sao tin được trang này?
+    </h2>
+    <p id="explainerText">Đang tải…</p>
+  </section>
+
+  <footer>
+    Vận hành bởi <b>Phần mềm Kế toán Quỹ Xã hội</b><br>
+    Dev Diệp Thành Luân · xác thực chạy hoàn toàn trên trình duyệt của bạn, không gửi dữ liệu đi đâu cả
+  </footer>
+</main>
+
+<script>
+(function(){
+  // Public key ECDSA P-256, định dạng "raw" (0x04 + X + Y, 65 byte) — sinh
+  // cặp/PHẢI khớp với PRIVATE_KEY_B64 trong receipt_signing.py. Public key
+  // được PHÉP công khai (chỉ dùng để verify, không thể dùng để ký giả).
+  var PUBLIC_KEY_RAW_B64 = "BHJuVfpFQG0RuLtfS6blti1Cu9HSuUbxcUCQCw+urFLWSNO0xbJcZsDwVATkC5bz3+MukMYcb7U7BYxgScBlV64=";
+
+  var ICON_CHECK = "M4 12.5l5 5L20 6";
+  var ICON_X = "M6 6l12 12M18 6L6 18";
+  var ICON_WARN = "M12 3v11M12 18v.01";
+
+  function b64ToBytes(b64std){
+    var bin = atob(b64std);
+    var bytes = new Uint8Array(bin.length);
+    for (var i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+    return bytes;
+  }
+  function b64urlToBytes(b64url){
+    var b64 = b64url.replace(/-/g, '+').replace(/_/g, '/');
+    while (b64.length % 4) b64 += '=';
+    return b64ToBytes(b64);
+  }
+  function fmtMoney(n){
+    return Math.round(n).toString().replace(/\B(?=(\d{3})+(?!\d))/g, '.') + ' đ';
+  }
+  function fmtDate(iso){
+    var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso || '');
+    return m ? (m[3] + '/' + m[2] + '/' + m[1]) : (iso || '—');
+  }
+
+  function setState(state, title, desc){
+    var banner = document.getElementById('banner');
+    banner.classList.remove('state-invalid', 'state-unknown');
+    if (state === 'invalid') banner.classList.add('state-invalid');
+    if (state === 'unknown') banner.classList.add('state-unknown');
+
+    var path = document.getElementById('badgePath');
+    path.style.animation = 'none';
+    path.getBoundingClientRect(); // force reflow trước khi restart animation
+    path.setAttribute('d', state === 'valid' ? ICON_CHECK : (state === 'invalid' ? ICON_X : ICON_WARN));
+    path.style.animation = 'draw .5s ease forwards';
+
+    document.getElementById('statusTitle').textContent = title;
+    document.getElementById('statusDesc').textContent = desc;
+  }
+
+  function showReceipt(payload){
+    document.getElementById('receiptCode').textContent = payload.c || '—';
+    document.getElementById('receiptDate').textContent = fmtDate(payload.d);
+    document.getElementById('receiptPayer').textContent = payload.n || '—';
+    document.getElementById('receiptAmount').textContent = fmtMoney(payload.t || 0);
+    document.getElementById('ticket').classList.remove('hidden');
+
+    if (payload.u){
+      document.getElementById('fundName').textContent = payload.u;
+      document.getElementById('fundStrip').classList.remove('hidden');
+    }
+  }
+
+  async function verify(){
+    var hash = (location.hash || '').replace(/^#/, '');
+    if (!hash){
+      setState('unknown', 'Chưa có dữ liệu để kiểm tra',
+        'Mở trang này bằng cách quét mã QR in trên biên lai — không có sẵn dữ liệu nào để đối chiếu.');
+      document.getElementById('explainerText').innerHTML =
+        'Trang này chỉ hoạt động khi được mở từ mã QR trên 1 biên lai cụ thể. Nếu bạn gõ tay địa chỉ này, trang sẽ không có gì để xác minh.';
+      return;
+    }
+
+    var dotIndex = hash.indexOf('.');
+    if (dotIndex < 0){
+      setState('unknown', 'Mã QR không đọc được', 'Đường dẫn bị thiếu hoặc sai định dạng, không thể kiểm tra.');
+      return;
+    }
+    var payloadB64 = hash.slice(0, dotIndex);
+    var sigB64 = hash.slice(dotIndex + 1);
+
+    var payloadBytes, sigBytes, payload;
+    try{
+      payloadBytes = b64urlToBytes(payloadB64);
+      sigBytes = b64urlToBytes(sigB64);
+      payload = JSON.parse(new TextDecoder('utf-8').decode(payloadBytes));
+    }catch(e){
+      setState('unknown', 'Mã QR không đọc được', 'Dữ liệu trong mã QR bị hỏng hoặc không đúng định dạng, không thể kiểm tra.');
+      return;
+    }
+
+    if (!window.isSecureContext || !(window.crypto && window.crypto.subtle)){
+      setState('unknown', 'Trình duyệt không hỗ trợ kiểm tra',
+        'Hãy mở lại đường dẫn này bằng trình duyệt hiện đại hơn (Chrome, Safari, Edge bản mới) qua kết nối https.');
+      showReceipt(payload);
+      return;
+    }
+
+    try{
+      var publicKey = await crypto.subtle.importKey(
+        'raw', b64ToBytes(PUBLIC_KEY_RAW_B64),
+        { name: 'ECDSA', namedCurve: 'P-256' },
+        false, ['verify']
+      );
+      var ok = await crypto.subtle.verify(
+        { name: 'ECDSA', hash: 'SHA-256' },
+        publicKey, sigBytes, payloadBytes
+      );
+
+      showReceipt(payload);
+
+      if (ok){
+        setState('valid', 'Biên lai hợp lệ',
+          'Dữ liệu trên biên lai khớp hoàn toàn với chữ ký số được phát hành tại thời điểm lập — chưa từng bị chỉnh sửa.');
+        document.getElementById('explainerText').innerHTML =
+          'Lúc lập biên lai, phần mềm kế toán đã <b>ký số</b> toàn bộ nội dung bằng khóa riêng. Mã QR chứa đúng gói dữ liệu đó — trang này chỉ kiểm tra chữ ký ngay trên trình duyệt của bạn, không tra cứu qua máy chủ nào khác.';
+      } else {
+        setState('invalid', 'Biên lai đã bị chỉnh sửa',
+          'Nội dung hiện tại KHÔNG khớp với chữ ký số đã phát hành. Vui lòng đối chiếu trực tiếp với kế toán quỹ trước khi ghi nhận.');
+        document.getElementById('explainerText').innerHTML =
+          'Chữ ký số đi kèm mã QR <b>không khớp</b> với nội dung — nhiều khả năng dữ liệu đã bị sửa sau khi phát hành. Trang này chỉ so khớp chữ ký, không tự đoán hộ số liệu đúng.';
+      }
+    }catch(e){
+      setState('unknown', 'Không kiểm tra được', 'Có lỗi xảy ra khi xác minh chữ ký. Vui lòng thử quét lại mã QR.');
+    }
+  }
+
+  verify();
+})();
+</script>
+</body>
+</html>
