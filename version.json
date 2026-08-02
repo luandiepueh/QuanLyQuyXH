@@ -1,14 +1,17 @@
 {
-  "version": "F1.0.40",
-  "release_date": "2026-07-26",
-  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.0.40/QuanLyQuyXH_F1.0.40.zip",
+  "version": "F1.1.01",
+  "release_date": "2026-08-02",
+  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.1.01/QuanLyQuyXH_F1.1.01.zip",
   "changelog": [
-    "Thêm tiện ích \"Thêm báo cáo\" (Beta) ở menu Tiện ích — tự tạo báo cáo tùy chỉnh từ Danh sách chứng từ / Sổ cái tài khoản / Sổ chi tiết mục lục, xuất được Excel/Word",
-    "Tự động lưu trữ (đóng gói .zip) trọn bộ báo cáo tháng + B01-B04 + sổ sách của năm ngay khi khóa sổ chuyển niên độ",
-    "Cho phép hạch toán nhiều mục Thu/Chi trong cùng 1 Phiếu Thu/Chi/Báo Có/Báo Nợ (quỹ VNN) — các báo cáo liên quan đã tính đúng theo từng dòng",
-    "Hỗ trợ mở thêm nhiều Tài khoản Ngân hàng cùng gốc 1121 (đợt vận động mới) — mã kế toán tự cấp, chặn nhập trùng số tài khoản",
-    "Báo cáo tháng: cảnh báo tự động khi \"Tồn cuối kỳ\" lệch với số dư Tiền mặt + Ngân hàng thực tế",
-    "Sửa lỗi và nâng cao trải nghiệm ở nhiều báo cáo (Sổ Chi, Báo cáo tháng, Dashboard, Bảng cân đối tài khoản, B01-BCTC)",
-    "Gọn thanh menu: \"Trang chủ\" chỉ còn icon, \"Hệ thống\" chuyển lên cạnh \"Cập nhật\" với màu nổi bật hơn"
+    "Cho phép tự tạo thêm tối đa 2 quỹ tùy chọn ngay từ màn hình đăng nhập — tự đặt tên quỹ, tự đặt tên mục lục thu/chi, DB riêng biệt hoàn toàn với 3 quỹ có sẵn (VNN/Cứu trợ/Biển Đảo)",
+    "Mã hóa toàn bộ dữ liệu (SQLCipher/AES-256) — chặn mở nhầm file dữ liệu bằng công cụ SQLite/Notepad++ thông thường",
+    "Thêm Đối chiếu sao kê ngân hàng: tải file Excel sao kê lên, tự so khớp với sổ sách đã ghi và hiện rõ chênh lệch (không tự sửa/tạo chứng từ)",
+    "Thêm Quy tắc hạch toán tự động khi nhập sao kê ngân hàng — khai báo từ khóa 1 lần, các lần nhập sau tự gợi ý đúng mục lục/đối tượng theo nội dung giao dịch",
+    "Thêm xác thực biên lai bằng mã QR — quét bằng camera điện thoại thường, đối chiếu ngay nội dung đã ký số tại thời điểm lập, phát hiện được nếu bị chỉnh sửa sau khi in",
+    "Thêm module Nhắc việc theo lịch (deadline báo cáo, gia hạn giấy phép hoạt động quỹ...)",
+    "Thêm module Nhà tài trợ — tự tổng hợp từ Biên lai thu tiền, in được thư cảm ơn",
+    "Tiếp tục hoàn thiện tiện ích \"Thêm báo cáo\" tùy chỉnh (Beta)",
+    "Bảng Cân Đối Số Phát Sinh & Thiết lập Số dư đầu kỳ: hiện lại dòng tổng \"Tiền gửi ngân hàng\" khi có nhiều tài khoản ngân hàng con, in đậm dòng chính và in nghiêng dòng chi tiết ngân hàng cho dễ đối chiếu",
+    "Sửa lỗi Phiếu Chi/Báo Nợ: khối \"Số hộ/Đơn giá\" cũ tự hiện lại gây rối mắt dù đã dùng bảng \"Dòng định khoản\" nhập nhiều mục chi"
   ]
 }
