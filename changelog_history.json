@@ -1,0 +1,394 @@
+[
+  {
+    "version": "F1.1.01",
+    "release_date": "2026-08-02",
+    "changelog": [
+      "Cho phép tự tạo thêm tối đa 2 quỹ tùy chọn ngay từ màn hình đăng nhập — tự đặt tên quỹ, tự đặt tên mục lục thu/chi, DB riêng biệt hoàn toàn với 3 quỹ có sẵn (VNN/Cứu trợ/Biển Đảo)",
+      "Mã hóa toàn bộ dữ liệu (SQLCipher/AES-256) — chặn mở nhầm file dữ liệu bằng công cụ SQLite/Notepad++ thông thường",
+      "Thêm Đối chiếu sao kê ngân hàng: tải file Excel sao kê lên, tự so khớp với sổ sách đã ghi và hiện rõ chênh lệch (không tự sửa/tạo chứng từ)",
+      "Thêm Quy tắc hạch toán tự động khi nhập sao kê ngân hàng — khai báo từ khóa 1 lần, các lần nhập sau tự gợi ý đúng mục lục/đối tượng theo nội dung giao dịch",
+      "Thêm xác thực biên lai bằng mã QR — quét bằng camera điện thoại thường, đối chiếu ngay nội dung đã ký số tại thời điểm lập, phát hiện được nếu bị chỉnh sửa sau khi in",
+      "Thêm module Nhắc việc theo lịch (deadline báo cáo, gia hạn giấy phép hoạt động quỹ...)",
+      "Thêm module Nhà tài trợ — tự tổng hợp từ Biên lai thu tiền, in được thư cảm ơn",
+      "Tiếp tục hoàn thiện tiện ích \"Thêm báo cáo\" tùy chỉnh (Beta)",
+      "Bảng Cân Đối Số Phát Sinh & Thiết lập Số dư đầu kỳ: hiện lại dòng tổng \"Tiền gửi ngân hàng\" khi có nhiều tài khoản ngân hàng con, in đậm dòng chính và in nghiêng dòng chi tiết ngân hàng cho dễ đối chiếu",
+      "Sửa lỗi Phiếu Chi/Báo Nợ: khối \"Số hộ/Đơn giá\" cũ tự hiện lại gây rối mắt dù đã dùng bảng \"Dòng định khoản\" nhập nhiều mục chi"
+    ]
+  },
+  {
+    "version": "F1.0.40",
+    "release_date": "2026-07-26",
+    "changelog": [
+      "Thêm tiện ích \"Thêm báo cáo\" (Beta) ở menu Tiện ích — tự tạo báo cáo tùy chỉnh từ Danh sách chứng từ / Sổ cái tài khoản / Sổ chi tiết mục lục, xuất được Excel/Word",
+      "Tự động lưu trữ (đóng gói .zip) trọn bộ báo cáo tháng + B01-B04 + sổ sách của năm ngay khi khóa sổ chuyển niên độ",
+      "Cho phép hạch toán nhiều mục Thu/Chi trong cùng 1 Phiếu Thu/Chi/Báo Có/Báo Nợ (quỹ VNN) — các báo cáo liên quan đã tính đúng theo từng dòng",
+      "Hỗ trợ mở thêm nhiều Tài khoản Ngân hàng cùng gốc 1121 (đợt vận động mới) — mã kế toán tự cấp, chặn nhập trùng số tài khoản",
+      "Báo cáo tháng: cảnh báo tự động khi \"Tồn cuối kỳ\" lệch với số dư Tiền mặt + Ngân hàng thực tế",
+      "Sửa lỗi và nâng cao trải nghiệm ở nhiều báo cáo (Sổ Chi, Báo cáo tháng, Dashboard, Bảng cân đối tài khoản, B01-BCTC)",
+      "Gọn thanh menu: \"Trang chủ\" chỉ còn icon, \"Hệ thống\" chuyển lên cạnh \"Cập nhật\" với màu nổi bật hơn"
+    ]
+  },
+  {
+    "version": "F1.0.39",
+    "release_date": "2026-07-23",
+    "changelog": [
+      "Bổ sung khai báo Tỉnh/Thành cho đơn vị (34 tỉnh/thành, mặc định TP.HCM) — tỉnh/thành khác được tự tùy chỉnh mục lục Thu/Chi riêng",
+      "Sửa lỗi mất ô \"Mục chi tiết\" khi chọn mục Chi phí quản lý bộ máy (32.11) ở Phiếu Chi quỹ Biển Đảo; bổ sung ô này cho Báo Nợ",
+      "Thêm tab chuyển Mục lục Thu/Chi ở màn Hệ thống → Mục lục tài chính",
+      "Nâng cao độ chính xác Báo cáo tháng: tính Thu/Chi trực tiếp theo tài khoản kế toán (511/515/611), tự động đối chiếu số dư Tiền mặt + Ngân hàng và cảnh báo nếu phát hiện chênh lệch",
+      "Sửa lỗi chồng cột trong file Excel xuất Báo cáo tháng Biển Đảo",
+      "Dọn dẹp mục lục dư thừa còn sót từ phần mềm kế toán công đoàn ở quỹ Vì Người Nghèo"
+    ]
+  },
+  {
+    "version": "F1.0.37",
+    "release_date": "2026-07-23",
+    "changelog": [
+      "Bổ sung chức năng nhập đa dòng định khoản",
+      "Cập nhật logo 3 quỹ",
+      "Nâng cao trải nghiệm người dùng"
+    ]
+  },
+  {
+    "version": "F1.0.36",
+    "release_date": "2026-07-19",
+    "changelog": [
+      "Thêm chức năng Log ghi lại lịch sử sửa, xóa, thêm dữ liệu của người dùng (để phục vụ tra cứu khi cần)",
+      "Thêm chức năng nhận diện theo màu của chứng từ",
+      "Sửa lỗi hiển thị TK337",
+      "Sửa bảng kê biên lai (bảng kê ngày, in bảng kê, in hàng loạt, in chọn) sắp xếp sai thứ tự khi số biên lai từ 10 trở lên (vd hiện 10,11,12,...,9 thay vì đúng thứ tự 9,10,11,12,...)",
+      "Sửa lỗi in bảng kê bị lỗi khi thao tác qua ứng dụng WiFi chia sẻ cho thủ quỹ",
+      "Sửa hiển thị \"-0\" (số âm vô nghĩa) ở dòng số dư đầu kỳ TK 337 trong báo cáo tháng"
+    ]
+  },
+  {
+    "version": "F1.0.35",
+    "release_date": "2026-07-16",
+    "changelog": [
+      "Sửa báo cáo tháng đếm trùng tiền TK 337 (giữ hộ MTTQ) vào \"Tồn đầu\" khi số dư 337 còn tồn qua năm mới",
+      "Thêm \"Sao lưu toàn bộ 3 quỹ\" (1 file zip gồm đủ 6 DB) và phục hồi có bước xác nhận riêng khi ghi đè cả 3 quỹ cùng lúc",
+      "Sửa ngày hiển thị sai định dạng (mm/dd/yyyy thay vì dd/mm/yyyy) khi thêm dòng mới ở trang Thông tin đơn vị",
+      "Xóa các mục lục thừa không thuộc quỹ còn sót trong dữ liệu khởi tạo mặc định, từng gây cảnh báo \"tự dọn mục lục lạ\" khi tạo DB quỹ Cứu trợ/Biển Đảo mới",
+      "Dữ liệu (DB, biên lai, cấu hình) chuyển sang lưu trong thư mục Data/ cạnh EXE — tự động di dời dữ liệu cũ 1 lần, không mất dữ liệu"
+    ]
+  },
+  {
+    "version": "F1.0.34",
+    "release_date": "2026-07-16",
+    "changelog": [
+      "Sửa lỗi nghiêm trọng: biên lai cũ bị mất (hiển thị trống, số biên lai bị đánh lại từ 01) sau khi tách CSDL biên lai theo quỹ ở bản F1.0.33",
+      "Dữ liệu biên lai cũ được TỰ ĐỘNG khôi phục đúng ngay lần đăng nhập đầu tiên sau khi cập nhật, không cần thao tác gì thêm"
+    ]
+  },
+  {
+    "version": "F1.0.33",
+    "release_date": "2026-07-15",
+    "changelog": [
+      "Thêm dòng theo dõi nguồn KP TP cấp tại báo cáo tháng Quỹ Vì Người Nghèo",
+      "Thêm báo cáo tháng dạng đứng ở quỹ vì người nghèo"
+    ]
+  },
+  {
+    "version": "F1.0.32",
+    "release_date": "2026-07-11",
+    "changelog": [
+      "Fix một số máy mất Active khi đổi mạng hoặc chuyển wifi",
+      "Shortcut nhập liệu ở màn hình chủ",
+      "Thêm báo cáo tháng dạng dọc ở Quỹ Vì Người Nghèo",
+      "Thêm cảnh báo khi xóa bảng kê biên lai"
+    ]
+  },
+  {
+    "version": "F1.0.31",
+    "release_date": "2026-07-09",
+    "changelog": [
+      "Thêm chức năng xuất file Zip đính kèm lên DVC KBNN (Beta)",
+      "Fix lỗi đồng bộ N-1 ở biên lai và bảng kê",
+      "Tăng khoảng cách các ô ký ở các sổ kế toán và báo cáo rộng rãi hơn"
+    ]
+  },
+  {
+    "version": "F1.0.30",
+    "release_date": "2026-07-09",
+    "changelog": [
+      "Thêm chức năng Phóng to-thu nhỏ màn hình",
+      "Sửa lỗi đồng bộ tên quỹ biển đảo ở một số sổ"
+    ]
+  },
+  {
+    "version": "F1.0.29",
+    "release_date": "2026-07-07",
+    "changelog": [
+      "Đối tượng đã được đồng bộ vào UNC, Phiếu chi",
+      "Sửa lại Hội tên Hội đồng quản lý",
+      "Thêm sổ chi quản lý Quỹ biển đảo",
+      "Sủa lỗi hiển thị biên lai ở N+1",
+      "Fix lỗi đồng bộ thu hộ chi hộ",
+      "Hint: Chức năng xuất file Zip đồng bộ DVC kho bạc ở phiên bản F1.0.3x. Stay Tunes ^^"
+    ]
+  },
+  {
+    "version": "F1.0.28",
+    "release_date": "2026-07-06",
+    "changelog": [
+      "Thêm chức năng in UNC, GR và bảng đối chiếu Kho bạc nhà nước",
+      "Fix chức năng xóa chứng từ"
+    ]
+  },
+  {
+    "version": "F1.0.27",
+    "release_date": "2026-07-05",
+    "changelog": [
+      "Cập nhật giao diện glass toàn khối",
+      "Thiết kế lại form nhập liệu gọn và sạch hơn",
+      "Cập nhật sổ quỹ tiền mặt với người lập sổ là thủ quỹ",
+      "Fix lỗi hiển thị các mục lục cũ không dùng",
+      "Nâng cao trải nghiệm hoạt cảnh chuyển quỹ mượt mà"
+    ]
+  },
+  {
+    "version": "F1.0.26",
+    "release_date": "2026-07-02",
+    "changelog": [
+      "Cập nhật đổi tên data dữ liệu theo từng phường, xã (thực hiện tại Thông tin đơn vị → nhấn Lưu)",
+      "Fix và nâng cao trải nghiệm"
+    ]
+  },
+  {
+    "version": "F1.0.25",
+    "release_date": "2026-07-01",
+    "changelog": [
+      "Thêm tiện ích thay đổi Font và giao diện",
+      "Sửa lỗi import bằng Excel (chặn sai niên độ, kiểm tra số dư, phát hiện trùng)",
+      "Chức năng đồng bộ đối tượng liên quỹ",
+      "Cập nhật và cải tiến"
+    ]
+  },
+  {
+    "version": "F1.0.24",
+    "release_date": "2026-06-30",
+    "changelog": [
+      "Cập nhật thu lãi tiền gửi sang TK 515",
+      "Thêm chức năng xóa hàng loạt khi import bằng Excel 2 lần",
+      "Sửa lỗi mở niên độ năm N+1"
+    ]
+  },
+  {
+    "version": "F1.0.23",
+    "release_date": "2026-06-30",
+    "changelog": [
+      "Thay đổi giao diện người dùng đồng bộ",
+      "Sửa lỗi hiển thị ngân hàng",
+      "Giao diện đăng nhập mới",
+      "Trợ lý Bông"
+    ]
+  },
+  {
+    "version": "F1.0.22",
+    "release_date": "2026-06-29",
+    "changelog": [
+      "Đồng bộ giao diện Ux, Ui các form, các báo cáo, các mẫu in",
+      "Fix số dư ngân hàng không hiển thị khi làm việc ở niên độ cũ (VD: 2025) trong năm 2026",
+      "Đánh số lại chứng từ: mặc định đúng niên độ đang làm việc; chặn thay đổi nếu năm đã khóa sổ",
+      "Mẫu biên bản kiểm kê quỹ tiền mặt (08a-TT): bản in không có header/footer trình duyệt"
+    ]
+  },
+  {
+    "version": "F1.0.21",
+    "release_date": "2026-06-27",
+    "changelog": [
+      "Thêm chức năng báo cáo sử dụng Kinh phí TP",
+      "Báo cáo KP TP: nút In / Sửa / Xóa trong bảng lịch sử; sửa lỗi BC thu chưa bị loại khỏi modal khi đã chốt báo cáo",
+      "Báo cáo KP TP: Nội dung chi hiển thị đầy đủ mã + tên mục lục (vd: 30.15 Các nội dung khác) và mô tả chứng từ",
+      "Báo cáo KP TP: layout full-width, font chữ bảng lịch sử tăng 50%, địa danh lấy động từ thông tin đơn vị",
+      "Fix lỗi hiển thị"
+    ]
+  },
+  {
+    "version": "F1.0.20",
+    "release_date": "2026-06-26",
+    "changelog": [
+      "Biên lai: thêm nút tải file Excel mẫu trực tiếp từ màn hình import",
+      "Sửa lỗi số tiền bị nhân 10 lần khi mở form sửa biên lai (lỗi float .0)",
+      "Sửa hiển thị số tiền thiếu dấu phân cách nghìn khi mở form biên lai",
+      "Tiện ích mới: Import sổ tiền mặt từ Excel (tạo phiếu thu PT / phiếu chi PC tự động)"
+    ]
+  },
+  {
+    "version": "F1.0.18",
+    "release_date": "2026-06-25",
+    "changelog": [
+      "Quỹ Biển Đảo: sửa lỗi Báo Nợ báo lỗi 500 khi chưa khai báo tài khoản ngân hàng",
+      "Quỹ Biển Đảo: mục lục 32.01 (Nộp về MTTQ TP) nay hiển thị đúng TK Nợ 6118 khi lập phiếu chi",
+      "Quỹ Biển Đảo: tự động sửa tên TK 6118 bị ô nhiễm khi khởi động lần đầu",
+      "Quỹ Biển Đảo: trang quản lý mục lục tài chính nay hiển thị đúng nhóm 24.xx/32.xx"
+    ]
+  },
+  {
+    "version": "F1.0.17",
+    "release_date": "2026-06-24",
+    "changelog": [
+      "Thủ quỹ xem được toàn bộ biên lai của quỹ (không còn giới hạn chỉ biên lai do mình lập)",
+      "In hàng loạt: modal mới với 2 chế độ — in theo khoảng ngày hoặc tích chọn từng biên lai",
+      "Bảng kê đã chuyển: hiển thị đúng phiếu thu theo quỹ đang hoạt động (fix lỗi hiện nhầm quỹ khác)"
+    ]
+  },
+  {
+    "version": "F1.0.16",
+    "release_date": "2026-06-24",
+    "changelog": [
+      "Footer: hiển thị tên đơn vị (Phường/Xã từ Thông tin đơn vị) và tên quỹ đang hoạt động tại góc dưới phải — nổi bật theo màu theme từng quỹ",
+      "Đổi quỹ: footer cập nhật ngay tên đơn vị và màu sắc theo quỹ mới được chọn"
+    ]
+  },
+  {
+    "version": "F1.0.15",
+    "release_date": "2026-06-23",
+    "changelog": [
+      "Sửa lỗi 'out of range' khi nhập biên lai trực tiếp (lỗi IndexError trong confirm_import)",
+      "Sửa lỗi session SQLAlchemy bị khóa sau khi nhập biên lai lỗi — các lần nhập tiếp theo không còn báo lỗi liên tiếp",
+      "Sửa lỗi đọc số tiền bằng chữ ≥ 10 tỷ đồng khi in biên lai (IndexError trong amount_to_words)",
+      "Thủ quỹ nhập biên lai ngày trước: nút 'Tạo biên lai mới' tự điền sẵn ngày đang xem trên bảng kê",
+      "Sau khi lưu biên lai, thủ quỹ được chuyển về bảng kê của đúng ngày biên lai (thay vì danh sách chung)"
+    ]
+  },
+  {
+    "version": "F1.0.14",
+    "release_date": "2026-06-21",
+    "changelog": [
+      "Quản lý Niên độ: hiển thị chi tiết bút toán kết chuyển (Nợ/Có/Số tiền) ngay trên trang — không mở tab mới",
+      "Quản lý Niên độ: thêm nút 'Tính lại KC' để tính lại kết chuyển mà không cần mở khóa sổ",
+      "Quản lý Niên độ: thêm nút 'In chứng từ' in Phiếu hạch toán C45-BB (KT) cho chứng từ kết chuyển",
+      "Quản lý Niên độ: chi tiết KC chỉ hiển thị khi đang ở đúng niên độ làm việc",
+      "Fix lỗi bảng cân đối sai TK 5113/711x sau mỗi lần khởi động lại phần mềm (migration mù quáng đổi TK hợp lệ)"
+    ]
+  },
+  {
+    "version": "F1.0.13",
+    "release_date": "2026-06-19",
+    "changelog": [
+      "Bảng cân đối số phát sinh: hướng dẫn mở khóa và kết chuyển lại khi TK 5113/711 còn số dư cuối kỳ sau khi chỉnh sửa chứng từ",
+      "Fix bút toán kết chuyển cuối năm ghi nhầm TK 7111 thay vì TK 5113 khi tài khoản nguồn bị thay đổi sau thời điểm khóa sổ"
+    ]
+  },
+  {
+    "version": "F1.0.12",
+    "release_date": "2026-06-18",
+    "changelog": [
+      "Fix cập nhật tự động treo vô thời hạn: thêm giới hạn thời gian cứng 5 phút và phát hiện kết nối đình trệ — tải xong hoặc thông báo lỗi rõ ràng, không quay mãi",
+      "Hiển thị tiến trình tải: thanh tiến độ phần trăm, thời gian đã chờ, gợi ý khi chờ lâu, link tải thủ công khi lỗi",
+      "Chế độ cửa sổ desktop mặc định: chạy py app.py luôn mở cửa sổ ứng dụng, không mở trình duyệt",
+      "Fix link thoát ra trình duyệt hệ thống: Sao lưu, In biên lai... không còn mở Chrome/Edge trong chế độ cửa sổ",
+      "Fix trang in không yêu cầu đăng nhập lại: in bảng kê, in biên lai mở đúng trang trong cùng cửa sổ",
+      "Chuông thông báo biên lai chưa lập bảng kê: hiển thị số lượng biên lai chờ xử lý, cảnh báo khi mở phần mềm"
+    ]
+  },
+  {
+    "version": "F1.0.11",
+    "release_date": "2026-06-18",
+    "changelog": [
+      "Chế độ cửa sổ desktop mặc định: chạy py app.py không còn mở trình duyệt, luôn mở cửa sổ ứng dụng",
+      "Fix link thoát ra trình duyệt hệ thống: các link Sao lưu, Quản lý đối tượng, In biên lai... không còn mở Chrome/Edge khi dùng chế độ cửa sổ",
+      "Fix trang in không yêu cầu đăng nhập lại: In bảng kê, in biên lai mở đúng trang in trong cùng cửa sổ",
+      "Thêm chuông thông báo biên lai chưa lập bảng kê: hiển thị số lượng biên lai chờ xử lý trên thanh menu, cập nhật tự động mỗi 60 giây",
+      "Cảnh báo khi mở phần mềm: nếu có biên lai từ ngày hôm trước chưa lập bảng kê sẽ hiện thông báo để kế toán xử lý",
+      "Thu gọn thanh menu: tối ưu kích thước cho cửa sổ 1280px, thay logo xoay bằng chuông thông báo có chức năng"
+    ]
+  },
+  {
+    "version": "F1.0.10",
+    "release_date": "2026-06-17",
+    "changelog": [
+      "Bảng kê biên lai: gộp cột Tên/Địa chỉ thành cột Diễn giải (họ tên, địa chỉ, nội dung thu trên một dòng)",
+      "Bảng kê biên lai: tiêu đề tự động theo tên quỹ đang hoạt động (không còn hardcode)",
+      "Bảng kê biên lai: header chuẩn văn bản nhà nước — tên đơn vị và quốc hiệu có gạch chân đúng vị trí",
+      "Bảng kê biên lai: chữ ký Người lập lấy từ Thông tin đơn vị (tên thủ quỹ)",
+      "Bảng kê biên lai: hiển thị tổng số biên lai trong dòng Tổng cộng",
+      "Phân quyền: Admin không bị chặn bởi bất kỳ trang nào trong module biên lai",
+      "Phân quyền: Thủ quỹ chỉ truy cập được module biên lai, không vào được trang kế toán"
+    ]
+  },
+  {
+    "version": "F1.0.9",
+    "release_date": "2026-06-16",
+    "changelog": [
+      "Công khai nguồn quỹ: hiển thị đối tượng (tên người nộp/đơn vị chuyển khoản) vào cột Đối tượng cho phiếu thu PT và báo có BC",
+      "Công khai nguồn quỹ: thêm tab lọc Thu tiền mặt / Thu chuyển khoản, tổng tiền cập nhật theo tab đang chọn",
+      "Công khai nguồn quỹ: bảng tổng kết hiển thị thêm dòng 'Trong đó: Thu tiền mặt / Thu chuyển khoản' khi chọn tab lọc",
+      "Công khai nguồn quỹ: tiêu đề báo cáo tự động gắn tên quỹ từ thông tin đơn vị",
+      "Công khai nguồn quỹ: sửa lỗi số tiền in lệch ngoài viền bảng khi xuất PDF/in"
+    ]
+  },
+  {
+    "version": "F1.0.8",
+    "release_date": "2026-06-16",
+    "changelog": [
+      "Sửa lỗi kết chuyển cuối kỳ: kết quả hoạt động nay đi đúng vào TK 421 (chưa phân phối) thay vì TK 412, đúng theo Điều 20 TT 41/2022",
+      "Sau khi kết chuyển, tự động mở chứng từ phân phối kết quả (421 → 412) đã điền sẵn số liệu để xác nhận 1 chạm",
+      "Sửa lỗi phân loại báo cáo B02: TK 511 nay phân vào dòng Doanh thu tài trợ (mã 500) thay vì NSNN cấp",
+      "Thông tin đơn vị: sau khi lưu số dư tiền mặt/ngân hàng mà chưa nhập bên Có đối ứng, hệ thống tự dẫn sang trang Số dư đầu kỳ để nhập TK nguồn kinh phí"
+    ]
+  },
+  {
+    "version": "F1.0.7",
+    "release_date": "2026-06-14",
+    "changelog": [
+      "Thêm thông báo tự động khi có phiên bản mới (badge + thông báo góc màn hình)"
+    ]
+  },
+  {
+    "version": "F1.0.6",
+    "release_date": "2026-06-14",
+    "changelog": [
+      "Thêm Dashboard Mục tiêu Thu trong năm: đặt mục tiêu, theo dõi lũy kế năm và thu trong tháng trực quan bằng biểu đồ",
+      "Bổ sung báo cáo B02, B03, B04 theo Thông tư 41/2022/TT-BTC",
+      "Thêm mẫu in Ủy nhiệm chi (UNC) cho nhiều ngân hàng",
+      "Sửa một số lỗi hiển thị và in ấn"
+    ]
+  },
+  {
+    "version": "F1.0.5",
+    "release_date": "2026-06-11",
+    "changelog": [
+      "Sửa lỗi Mục lục thu khi lập biên lai ở quỹ Cứu trợ và Biển đảo bị mặc định về 22.01 - Thu ủng hộ VNN, nay hiển thị đúng mục lục thu của từng quỹ",
+      "Cho phép thủ quỹ và kế toán in lại biên lai đã chốt vào bảng kê / đã chuyển Phiếu Thu",
+      "Bảng cân đối số phát sinh tài khoản (S04-TH): bỏ dòng Quốc hiệu để tránh lệch khung khi in, sửa lỗi mất cột Số dư cuối kỳ - Có khi in"
+    ]
+  },
+  {
+    "version": "F1.0.4",
+    "release_date": "2026-06-11",
+    "changelog": [
+      "Sửa lỗi giao diện: số tiền bị tràn khung và khoảng trống thừa giữa form nhập liệu và lịch sử chứng từ (phiếu thu, phiếu chi, báo có, báo nợ)",
+      "Cập nhật mẫu Biên lai thu tiền theo Mẫu C45-BB (TT 107/2017/TT-BTC): bỏ chữ ký Thủ trưởng đơn vị, hiển thị rõ số tiền thu, thêm trường Loại tiền (VNĐ/USD/EUR/JPY)",
+      "Sửa lỗi Bảng công khai thiếu một số phiếu thu hợp lệ",
+      "Sửa lỗi tạo biên lai ở Quỹ Biển Đảo bị báo lỗi Internal Server Error"
+    ]
+  },
+  {
+    "version": "F1.0.3",
+    "release_date": "2026-06-11",
+    "changelog": [
+      "Thêm báo cáo Tình hình tài chính",
+      "Bổ sung thông tin công khai",
+      "Sửa lỗi tự động cập nhật bị treo khi tải và cài bản mới (cửa sổ cập nhật giờ hiển thị tiến trình thay vì chạy ẩn)",
+      "Sửa một số lỗi khác"
+    ]
+  },
+  {
+    "version": "F1.0.2",
+    "release_date": "2026-06-10",
+    "changelog": [
+      "Sửa lỗi 'list index out of range' khi nhập số tài khoản ngân hàng ở Hệ thống / Thông tin đơn vị",
+      "Báo cáo tháng: thêm dòng Lũy kế từ đầu năm (thu/chi/tồn lũy kế đến hết kỳ báo cáo)",
+      "Sửa lỗi thủ quỹ không sửa được biên lai do chính mình lập và không thấy biên lai của mình trong bảng kê ngày"
+    ]
+  },
+  {
+    "version": "F1.0.1",
+    "release_date": "2026-06-10",
+    "changelog": [
+      "Phiên bản đầu tiên hỗ trợ kiểm tra & cập nhật tự động"
+    ]
+  }
+]
