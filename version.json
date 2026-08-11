@@ -1,11 +1,9 @@
 {
-  "version": "F1.1.02",
+  "version": "F1.1.03",
   "release_date": "TBD",
-  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.1.02/QuanLyQuyXH_F1.1.02.zip",
+  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.1.03/QuanLyQuyXH_F1.1.03.zip",
   "changelog": [
-    "Đổi tên DB quỹ mới theo tên gọi chính thức",
-    "Sửa lỗi xác nhận nhập sao kê ngân hàng: báo oan \"số dư không đủ\" khi sao kê có cả thu lẫn chi trong cùng đợt nhập, bỏ tick dòng nghi trùng vẫn bị nhập nhầm, mục lục/đối tượng/tên người nộp đã sửa trên bảng xem trước bị bỏ qua, và cấp trùng số chứng từ khi dữ liệu trải nhiều niên độ",
-    "Sửa lỗi nhập sao kê ngân hàng cho quỹ tùy chỉnh: mục lục gợi ý tự động dùng nhầm mã của quỹ VNN, khiến mọi dòng báo \"không xác định được mục lục\"",
-    "Trang Cập nhật: thêm mục Lịch sử cập nhật — xem lại changelog của mọi phiên bản đã phát hành, không chỉ bản mới nhất"
+    "Sửa chức năng tổng hợp bảng kê biên lai: bỏ giới hạn 30 ngày",
+    "Nâng cao trải nghiệm trang chủ"
   ]
 }

@@ -1,5 +1,13 @@
 [
     {
+        "version":  "F1.1.03",
+        "release_date":  "2026-08-11",
+        "changelog":  [
+                          "Sửa chức năng tổng hợp bảng kê biên lai: bỏ giới hạn 30 ngày",
+                          "Nâng cao trải nghiệm trang chủ"
+                      ]
+    },
+    {
         "version":  "F1.1.02",
         "release_date":  "2026-08-04",
         "changelog":  [
