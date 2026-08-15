@@ -1,5 +1,19 @@
 [
     {
+        "version":  "F1.1.04",
+        "release_date":  "2026-08-15",
+        "changelog":  [
+                          "Tách menu Biên lai ra riêng khỏi Nghiệp vụ cho gọn (Biên lai thu tiền, Bảng kê tổng hợp, Bảng kê → Phiếu Thu TM)",
+                          "Chuyển niên độ: thêm hiệu ứng chuyển tiếp và tự động về Trang chủ, tránh xem nhầm báo cáo tháng cũ khi vừa đổi năm",
+                          "Thêm thanh tìm kiếm nhanh trên menu — gõ tên chức năng/báo cáo để đi thẳng tới, không cần dò qua từng menu",
+                          "Thêm hiệu ứng \"Đã lưu ✓\" khi lưu chứng từ/biên lai/thiết lập — dễ nhận biết thao tác lưu đã thành công",
+                          "Trang Kích hoạt bản quyền: hiển thị đúng trạng thái license hiện tại (không còn lệch với cảnh báo hết hạn phía trên)",
+                          "Vá lỗi đọc mã máy (MachineGuid) chập chờn do registry đọc thất bại tạm thời — thêm cache cục bộ để license không bị báo sai máy",
+                          "Báo cáo tháng (bản in ngang): sửa co giãn cột/cỡ chữ theo bề rộng chữ đo thực tế, khắc phục tiêu đề cột tràn ra ngoài khi có nhiều mục chi tiết; đồng bộ bản in với chế độ hiển thị màn hình",
+                          "Báo cáo tháng (bản in dọc): tự ẩn các dòng chưa từng phát sinh khi in, tránh đẩy khối ký sang trang thừa"
+                      ]
+    },
+    {
         "version":  "F1.1.03",
         "release_date":  "2026-08-11",
         "changelog":  [
