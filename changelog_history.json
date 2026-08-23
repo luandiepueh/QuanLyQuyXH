@@ -1,5 +1,21 @@
 [
     {
+        "version":  "F1.1.05",
+        "release_date":  "2026-08-23",
+        "changelog":  [
+                          "Thêm màn hình Điều khoản sử dụng / Miễn trừ trách nhiệm — hiển thị và yêu cầu xác nhận ở lần mở đầu tiên sau khi cập nhật, xem lại bất cứ lúc nào qua menu Hệ thống",
+                          "Biên lai thu tiền: thêm mục \"Đối tượng\" (khu phố/tổ chức) gắn vào biên lai — hệ thống tự gợi ý theo tên người nộp đã thu lần trước",
+                          "Thêm trang \"Sổ theo dõi Biên lai\" (menu Biên lai) — xem lũy kế biên lai đã thu theo kiểu sổ quỹ, có xuất Excel",
+                          "Báo cáo Công khai nguồn quỹ: thêm bộ lọc và bảng tổng hợp thu theo Đối tượng/khu phố (cả trên màn hình lẫn Excel)",
+                          "Vá lỗi trang Kích hoạt bản quyền bị lỗi (crash) khi mở trên máy hoàn toàn chưa từng kích hoạt license",
+                          "Sửa lỗi báo cáo Công khai nguồn quỹ (bản Excel): một số Phiếu Thu nhập tay hợp lệ bị bỏ sót nhầm, và cột Địa chỉ bị để trống dù màn hình hiển thị đúng",
+                          "Khắc phục tình trạng mở ứng dụng / chuyển đổi quỹ bị chậm bất thường trên một số máy tính do cơ chế bảo vệ bộ nhớ của việc mã hóa dữ liệu",
+                          "Kiểm tra cập nhật phần mềm chạy ngầm mượt hơn, không còn treo ứng dụng khi chờ mạng; sửa lỗi đôi khi báo nhầm \"có bản mới\" dù máy đã cập nhật lên bản mới nhất",
+                          "Lịch sử cập nhật (trang Cập nhật) xem được ngay cả khi máy không có mạng",
+                          "Mục \"Đối tượng\" (khu phố/tổ chức) trong Hệ thống nay chỉ Kế toán/Admin mới sửa được, tránh thủ quỹ chỉnh nhầm danh mục dùng chung"
+                      ]
+    },
+    {
         "version":  "F1.1.04",
         "release_date":  "2026-08-15",
         "changelog":  [
