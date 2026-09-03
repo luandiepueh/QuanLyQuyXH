@@ -1,15 +1,11 @@
 {
-  "version": "F1.1.06",
-  "release_date": "2026-08-28",
-  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.1.06/QuanLyQuyXH_F1.1.06.zip",
+  "version": "F1.1.07",
+  "release_date": "2026-09-03",
+  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.1.07/QuanLyQuyXH_F1.1.07.zip",
   "changelog": [
-    "Thêm trang \"Bảng thi đua Thu vận động\" (menu Báo cáo) — so sánh Chỉ tiêu/Thực thu/% đạt theo từng khu phố, gộp cùng lúc nhiều quỹ (VNN/Cứu trợ/Biển Đảo) theo năm; sửa nhanh chỉ tiêu ngay trên bảng, xuất được Excel",
-    "Nhập sao kê ngân hàng: hỗ trợ thêm định dạng gốc của Saigonbank và BIDV (trước chỉ có Vietcombank/VietinBank) — tự tách người nộp, tự gợi ý mục lục như 2 ngân hàng cũ, không cần chỉnh sửa file trước khi tải lên",
-    "Thông tin đơn vị: chọn \"Tên đơn vị\" (Phường/Xã) bằng danh sách gõ-tìm theo dữ liệu sau sáp nhập 01/07/2025, thay vì gõ tay tự do dễ sai/quá dài làm vỡ layout báo cáo — vẫn có lựa chọn \"Khác\" để tự nhập nếu đơn vị không có trong danh sách",
-    "Báo cáo Công khai nguồn quỹ: bảng tổng hợp thu theo Đối tượng/Khu phố nay chỉ hiện khi có lọc theo 1 Đối tượng cụ thể, và chỉ hiện đúng Đối tượng đang chọn (trước đây luôn hiện đủ mọi Đối tượng dù không lọc)",
-    "Sửa lỗi Danh sách biên lai/Bảng kê hiển thị trống khi mở niên độ vượt trước năm hiện tại (VD mở sẵn niên độ 2027 trong khi máy vẫn ở 2026); ngày mặc định khi lập biên lai mới nay theo đúng niên độ đang làm việc thay vì luôn lấy ngày hôm nay",
-    "Sửa lỗi có thể chặn thao tác \"Chuyển bảng kê thành chứng từ\" do thiếu token bảo mật khi submit tự động",
-    "Báo cáo sử dụng kinh phí Thành phố: nút \"Lưu báo cáo\" đổi màu xanh lá khi đã lưu — dễ nhận biết hơn; thông báo lỗi tải lịch sử báo cáo rõ ràng hơn, không còn kẹt mãi ở \"Đang tải…\" khi lỗi mạng",
-    "Chân trang: thêm liên kết tải Phần mềm Kế toán Công đoàn cơ sở (CĐCS) — sản phẩm mới của tác giả, dành cho đơn vị có nhu cầu quản lý tài chính công đoàn"
+    "Sửa lỗi phục hồi dữ liệu từ bản backup cũ (đơn vị/máy khác đưa file backup): các phiếu Báo Có/Báo Nợ và phiếu Thu/Chi có liên quan tài khoản ngân hàng không hiển thị trên Sổ tiền gửi ngân hàng — nay tự động gán lại đúng tài khoản ngân hàng ngay khi phục hồi dữ liệu (áp dụng khi đơn vị chỉ có 1 tài khoản ngân hàng)",
+    "Sửa lỗi Báo cáo tháng và Báo cáo sử dụng kinh phí Thành phố tính sai số tiền đối với phiếu chi vừa có phần chi từ nguồn MTTQ Thành phố (TK 337) vừa có mục chi khác trong cùng 1 phiếu — trước đây tính nhầm toàn bộ số tiền phiếu vào TK 337, khiến dòng \"Chi TK 337\" bị thừa còn mục chi liên quan bị thiếu đúng phần bị tính nhầm đó",
+    "Sửa lỗi đọc dữ liệu cũ/file backup từ trước khi có mã hóa: một số màn hình (nhật ký hệ thống, công cụ kiểm tra) bị lỗi khi mở dữ liệu chưa mã hóa",
+    "Sửa lỗi màn hình chuyển quỹ vẫn hiện các quỹ tùy chỉnh đã tạo nhưng vượt quá hạn mức giấy phép hiện tại — bấm vào không có phản hồi gì; nay chỉ hiện đúng những quỹ đang được phép sử dụng"
   ]
 }
