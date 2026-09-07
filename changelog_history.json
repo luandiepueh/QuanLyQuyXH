@@ -1,5 +1,17 @@
 [
     {
+        "version":  "F1.1.08",
+        "release_date":  "2026-09-07",
+        "changelog":  [
+                          "Bảng cân đối tài khoản: thêm nút \"Xem dự kiến kết chuyển\" — xem trước số liệu NẾU khóa sổ ngay bây giờ (không cần đợi đến lúc khóa sổ thật cuối năm), tự ẩn khi năm đã khóa sổ chính thức",
+                          "Báo cáo tháng (VNN/Cứu trợ/Biển Đảo): thêm số hiệu văn bản chính thức (VNN: Số: .../BC-BVĐVNN; Cứu trợ và Biển Đảo: Số: .../BC-HĐQL — tự tăng theo năm, sửa tay được) và nút \"Lưu báo cáo\" để lưu lại xem sau; mở Báo cáo tháng nay hiện danh sách báo cáo đã lưu thay vì tự tính số liệu 01/01-31/12 như trước, bấm \"Tạo báo cáo mới\" để xem/tính thử (không tốn số hiệu cho tới khi bấm Lưu). Nếu chứng từ trong kỳ bị sửa sau khi đã lưu, hệ thống cảnh báo ngay khi mở lại báo cáo đó",
+                          "Danh sách báo cáo tháng đã lưu: thêm nhãn kỳ báo cáo dễ đọc (Tháng 7/2026, Quý 3/2026, 6 tháng đầu/cuối năm, Cả năm...) bên cạnh dải ngày",
+                          "Báo cáo tháng: thêm nút \"Xuất PDF\" cạnh nút \"In\" — xuất trực tiếp ra file PDF thật (giữ đúng dấu tiếng Việt, đúng bố cục) qua Microsoft Edge có sẵn trên máy, không cần cài thêm phần mềm nào",
+                          "Quỹ Cứu trợ: thêm tính năng \"Đợt vận động cứu trợ\" — gắn chứng từ thu/chi, phiếu kho, biên lai vào từng đợt vận động cụ thể để quyết toán minh bạch riêng từng đợt (thu-chi tiền, hiện vật, danh sách nhà tài trợ/người nhận hỗ trợ), kèm báo cáo nội bộ tổng hợp theo đợt",
+                          "Phiếu thu/phiếu chi: sửa lỗi hiển thị lặp \"Mẫu số: Mẫu số C40-BB\"/\"C41-BB\" khi in (nay chỉ còn hiện đúng 1 lần); thêm toggle ghi rõ số tiền đã nhận khi in"
+                      ]
+    },
+    {
         "version":  "F1.1.07",
         "release_date":  "2026-09-03",
         "changelog":  [
