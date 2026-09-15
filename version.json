@@ -1,13 +1,12 @@
 {
-  "version": "F1.1.08",
-  "release_date": "2026-09-07",
-  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.1.08/QuanLyQuyXH_F1.1.08.zip",
+  "version": "F1.1.09",
+  "release_date": "2026-09-15",
+  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.1.09/QuanLyQuyXH_F1.1.09.zip",
   "changelog": [
-    "Bảng cân đối tài khoản: thêm nút \"Xem dự kiến kết chuyển\" — xem trước số liệu NẾU khóa sổ ngay bây giờ (không cần đợi đến lúc khóa sổ thật cuối năm), tự ẩn khi năm đã khóa sổ chính thức",
-    "Báo cáo tháng (VNN/Cứu trợ/Biển Đảo): thêm số hiệu văn bản chính thức (VNN: Số: .../BC-BVĐVNN; Cứu trợ và Biển Đảo: Số: .../BC-HĐQL — tự tăng theo năm, sửa tay được) và nút \"Lưu báo cáo\" để lưu lại xem sau; mở Báo cáo tháng nay hiện danh sách báo cáo đã lưu thay vì tự tính số liệu 01/01-31/12 như trước, bấm \"Tạo báo cáo mới\" để xem/tính thử (không tốn số hiệu cho tới khi bấm Lưu). Nếu chứng từ trong kỳ bị sửa sau khi đã lưu, hệ thống cảnh báo ngay khi mở lại báo cáo đó",
-    "Danh sách báo cáo tháng đã lưu: thêm nhãn kỳ báo cáo dễ đọc (Tháng 7/2026, Quý 3/2026, 6 tháng đầu/cuối năm, Cả năm...) bên cạnh dải ngày",
-    "Báo cáo tháng: thêm nút \"Xuất PDF\" cạnh nút \"In\" — xuất trực tiếp ra file PDF thật (giữ đúng dấu tiếng Việt, đúng bố cục) qua Microsoft Edge có sẵn trên máy, không cần cài thêm phần mềm nào",
-    "Quỹ Cứu trợ: thêm tính năng \"Đợt vận động cứu trợ\" — gắn chứng từ thu/chi, phiếu kho, biên lai vào từng đợt vận động cụ thể để quyết toán minh bạch riêng từng đợt (thu-chi tiền, hiện vật, danh sách nhà tài trợ/người nhận hỗ trợ), kèm báo cáo nội bộ tổng hợp theo đợt",
-    "Phiếu thu/phiếu chi: sửa lỗi hiển thị lặp \"Mẫu số: Mẫu số C40-BB\"/\"C41-BB\" khi in (nay chỉ còn hiện đúng 1 lần); thêm toggle ghi rõ số tiền đã nhận khi in"
+    "Quỹ Biển Đảo: cập nhật cách tính hạn mức chi tài trợ/hỗ trợ theo Nghị định 03/2026/NĐ-CP (hiệu lực từ 01/03/2026), cho phép khai báo tỷ lệ và các khoản loại trừ theo từng năm ngay trên widget Trang chủ",
+    "Thêm mục \"Kiểm tra dữ liệu\" (menu Hệ thống) — tự động rà soát và cảnh báo nếu phát hiện chứng từ cũ có dấu hiệu bất thường, kèm liên kết mở thẳng chứng từ để kiểm tra/sửa tay",
+    "Phiếu chi/Báo nợ: cải tiến cách chọn \"Chi từ nguồn MTTQ TP\" (TK 337) cho phiếu nhiều dòng nghiệp vụ — chọn đúng dòng cần áp dụng (bấm chọn dòng rồi bật công tắc) thay vì áp dụng chung cho cả phiếu, tránh hạch toán nhầm khi chỉ một phần tiền chi từ nguồn Thành phố",
+    "Sửa lỗi Sổ Thu Quỹ/Sổ Chi Quỹ (và bản xuất Excel) hiển thị sai dòng \"Tổng cộng\" khi có chứng từ chuyển khoản nội bộ (rút/nộp tiền giữa quỹ tiền mặt và ngân hàng) được ghi qua mục \"Tự định khoản\"",
+    "Sửa lỗi và cải tiến kỹ thuật khác"
   ]
 }
