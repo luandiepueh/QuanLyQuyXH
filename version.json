@@ -1,12 +1,11 @@
 {
-  "version": "F1.1.09",
-  "release_date": "2026-09-15",
-  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.1.09/QuanLyQuyXH_F1.1.09.zip",
+  "version": "F1.1.10",
+  "release_date": "2026-09-16",
+  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.1.10/QuanLyQuyXH_F1.1.10.zip",
   "changelog": [
-    "Quỹ Biển Đảo: cập nhật cách tính hạn mức chi tài trợ/hỗ trợ theo Nghị định 03/2026/NĐ-CP (hiệu lực từ 01/03/2026), cho phép khai báo tỷ lệ và các khoản loại trừ theo từng năm ngay trên widget Trang chủ",
-    "Thêm mục \"Kiểm tra dữ liệu\" (menu Hệ thống) — tự động rà soát và cảnh báo nếu phát hiện chứng từ cũ có dấu hiệu bất thường, kèm liên kết mở thẳng chứng từ để kiểm tra/sửa tay",
-    "Phiếu chi/Báo nợ: cải tiến cách chọn \"Chi từ nguồn MTTQ TP\" (TK 337) cho phiếu nhiều dòng nghiệp vụ — chọn đúng dòng cần áp dụng (bấm chọn dòng rồi bật công tắc) thay vì áp dụng chung cho cả phiếu, tránh hạch toán nhầm khi chỉ một phần tiền chi từ nguồn Thành phố",
-    "Sửa lỗi Sổ Thu Quỹ/Sổ Chi Quỹ (và bản xuất Excel) hiển thị sai dòng \"Tổng cộng\" khi có chứng từ chuyển khoản nội bộ (rút/nộp tiền giữa quỹ tiền mặt và ngân hàng) được ghi qua mục \"Tự định khoản\"",
-    "Sửa lỗi và cải tiến kỹ thuật khác"
+    "Khắc phục lỗi hiển thị thiếu số dư TK 337 (Thu hộ - chi hộ có địa chỉ) trên Phiếu chi/Báo nợ khi khoản kinh phí Thành phố cấp còn số dư mang từ năm tài chính trước sang — trước đây chỉ tính phiếu thu mục lục \"01\" phát sinh trong năm hiện tại, bỏ sót phần số dư đã kết chuyển từ năm trước khiến hiển thị ít hơn số thực tế có thể chi",
+    "Sửa lỗi màn hình \"Thiết lập Số dư đầu kỳ\" (Hệ thống) hiển thị sai khi dữ liệu có nhiều hơn 1 dòng số dư cho cùng 1 tài khoản trong cùng năm — nay tự động bù trừ đúng thành 1 số dư duy nhất khớp với Bảng cân đối tài khoản, kèm cảnh báo rõ nếu phát hiện dữ liệu bất thường cần tự kiểm tra lại",
+    "Sửa lỗi Phục hồi dữ liệu (Hệ thống → Sao lưu/Phục hồi) có thể lẫn thông tin tài khoản ngân hàng của 1 đơn vị khác vào dữ liệu vừa phục hồi, khi bản sao lưu được phục hồi không cùng đơn vị với dữ liệu đang có sẵn trên máy — nay chỉ mang theo thông tin tài khoản ngân hàng cũ khi xác nhận đúng cùng 1 đơn vị",
+    "Sửa lỗi kỹ thuật khác liên quan Danh mục tài khoản khi có tài khoản ngân hàng chi tiết"
   ]
 }

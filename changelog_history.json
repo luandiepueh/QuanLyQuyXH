@@ -1,5 +1,15 @@
 [
     {
+        "version": "F1.1.10",
+        "release_date": "2026-09-16",
+        "changelog": [
+            "Khắc phục lỗi hiển thị thiếu số dư TK 337 (Thu hộ - chi hộ có địa chỉ) trên Phiếu chi/Báo nợ khi khoản kinh phí Thành phố cấp còn số dư mang từ năm tài chính trước sang — trước đây chỉ tính phiếu thu mục lục \"01\" phát sinh trong năm hiện tại, bỏ sót phần số dư đã kết chuyển từ năm trước khiến hiển thị ít hơn số thực tế có thể chi",
+            "Sửa lỗi màn hình \"Thiết lập Số dư đầu kỳ\" (Hệ thống) hiển thị sai khi dữ liệu có nhiều hơn 1 dòng số dư cho cùng 1 tài khoản trong cùng năm — nay tự động bù trừ đúng thành 1 số dư duy nhất khớp với Bảng cân đối tài khoản, kèm cảnh báo rõ nếu phát hiện dữ liệu bất thường cần tự kiểm tra lại",
+            "Sửa lỗi Phục hồi dữ liệu (Hệ thống → Sao lưu/Phục hồi) có thể lẫn thông tin tài khoản ngân hàng của 1 đơn vị khác vào dữ liệu vừa phục hồi, khi bản sao lưu được phục hồi không cùng đơn vị với dữ liệu đang có sẵn trên máy — nay chỉ mang theo thông tin tài khoản ngân hàng cũ khi xác nhận đúng cùng 1 đơn vị",
+            "Sửa lỗi kỹ thuật khác liên quan Danh mục tài khoản khi có tài khoản ngân hàng chi tiết"
+        ]
+    },
+    {
         "version": "F1.1.09",
         "release_date": "2026-09-15",
         "changelog": [
