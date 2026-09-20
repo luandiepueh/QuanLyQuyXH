@@ -1,11 +1,21 @@
 {
-  "version": "F1.1.10",
-  "release_date": "2026-09-16",
-  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.1.10/QuanLyQuyXH_F1.1.10.zip",
+  "version": "F1.1.11",
+  "release_date": "2026-09-20",
+  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.1.11/QuanLyQuyXH_F1.1.11.zip",
   "changelog": [
-    "Khắc phục lỗi hiển thị thiếu số dư TK 337 (Thu hộ - chi hộ có địa chỉ) trên Phiếu chi/Báo nợ khi khoản kinh phí Thành phố cấp còn số dư mang từ năm tài chính trước sang — trước đây chỉ tính phiếu thu mục lục \"01\" phát sinh trong năm hiện tại, bỏ sót phần số dư đã kết chuyển từ năm trước khiến hiển thị ít hơn số thực tế có thể chi",
-    "Sửa lỗi màn hình \"Thiết lập Số dư đầu kỳ\" (Hệ thống) hiển thị sai khi dữ liệu có nhiều hơn 1 dòng số dư cho cùng 1 tài khoản trong cùng năm — nay tự động bù trừ đúng thành 1 số dư duy nhất khớp với Bảng cân đối tài khoản, kèm cảnh báo rõ nếu phát hiện dữ liệu bất thường cần tự kiểm tra lại",
-    "Sửa lỗi Phục hồi dữ liệu (Hệ thống → Sao lưu/Phục hồi) có thể lẫn thông tin tài khoản ngân hàng của 1 đơn vị khác vào dữ liệu vừa phục hồi, khi bản sao lưu được phục hồi không cùng đơn vị với dữ liệu đang có sẵn trên máy — nay chỉ mang theo thông tin tài khoản ngân hàng cũ khi xác nhận đúng cùng 1 đơn vị",
-    "Sửa lỗi kỹ thuật khác liên quan Danh mục tài khoản khi có tài khoản ngân hàng chi tiết"
+    "Hiệu chỉnh nội dung hiển thị ở dashboard về tiền gửi khi có 2 tài khoản cùng lúc",
+    "Kiểm tra số dư tài khoản ngân hàng khi lưu hoặc sao chép chứng từ nay chính xác hơn: không còn bị chặn oan khi 1 phiếu có nhiều dòng liên quan nhiều tài khoản ngân hàng khác nhau, không còn bỏ sót trường hợp thật sự thiếu tiền, và chặn việc sao chép chứng từ cũ có tài khoản ngân hàng đã chọn không khớp với hạch toán thật (tránh nhân đôi sai lệch số liệu)",
+    "Phiếu chi/Báo nợ nhiều dòng: sửa lỗi khi mở SỬA 1 phiếu đã lưu — nút chọn \"Chi từ nguồn MTTQ TP\" (TK 337) không bấm được cho dòng vừa thêm mới (phải xóa nhập lại từ đầu mới dùng được); nay sửa phiếu bình thường vẫn chọn được",
+    "Trang Công khai nguồn quỹ và Bảng thi đua Thu vận động: sửa lỗi bỏ sót một số biên lai thu (sinh từ bảng kê) khi lọc/thống kê theo Đối tượng — nay tính đủ, không còn rơi nhầm vào nhóm \"Khác\"",
+    "Danh sách biên lai: cột hiển thị đổi từ \"Nội dung\" sang \"Địa chỉ/Đối tượng\" của người nộp để dễ nhận diện hơn khi xem nhanh",
+    "Sửa lỗi quỹ Cứu trợ/Biển Đảo mới tạo (kể cả cài đặt hoàn toàn mới) luôn hiện cảnh báo \"phát hiện và tự dọn mục lục lạ 30.16/99 - Khác\" ngay lần đầu chuyển sang quỹ đó — do lỗi kỹ thuật cũ vô tình chèn nhầm 2 mã của quỹ khác vào lúc khởi tạo dữ liệu, phần mềm tự dọn ngay sau đó nhưng vẫn hiện cảnh báo gây hiểu lầm; nay đã chặn tận gốc, không còn hiện cảnh báo này nữa",
+    "Sửa lỗi có thể khiến file Sao lưu dữ liệu (thủ công lẫn Sao lưu tự động theo ngày/khi đóng phần mềm) bị lưu không toàn vẹn nếu quá trình sao lưu diễn ra đúng lúc phần mềm đang ghi dữ liệu — nay luôn tạo bản sao lưu nhất quán, đảm bảo phục hồi lại được khi cần",
+    "Vá kỹ hơn lỗi \"Phục hồi dữ liệu có thể lẫn tài khoản ngân hàng 2 đơn vị khác nhau\" đã sửa ở F1.1.10: một số trường hợp không xác định rõ được tên đơn vị của dữ liệu trước khi phục hồi vẫn có thể lọt tài khoản ngân hàng cũ vào — nay mọi trường hợp không chắc chắn đều tự động bỏ qua, kèm thông báo rõ để tự khai báo lại nếu cần",
+    "Phục hồi toàn bộ 3 quỹ (Hệ thống → Sao lưu/Phục hồi): thêm kiểm tra đối chiếu từng file dữ liệu trong bản backup trước khi ghi đè — phát hiện file bị hỏng hoặc bị chỉnh sửa thì tự động bỏ qua quỹ đó, tránh ghi nhầm dữ liệu",
+    "App Thủ quỹ: nhiều máy thủ quỹ và kế toán nay dùng cùng lúc không còn phải chờ nhau, không lẫn quỹ và không trùng số biên lai",
+    "App Thủ quỹ: lập bảng kê đồng thời từ nhiều máy không còn chồng biên lai — mỗi biên lai chỉ thuộc đúng một bảng kê; chọn biên lai không còn tồn tại sẽ được từ chối rõ ràng",
+    "App Thủ quỹ: sửa lỗi khi mở 2 cửa sổ hoặc 2 máy lần đầu cùng lúc khiến một bên không khởi động được",
+    "App Thủ quỹ: khi dữ liệu đang bận, phần mềm tự thử lại; nếu vẫn bận sẽ báo lỗi rõ ràng và không ghi dở dữ liệu",
+    "Lọc theo Đối tượng ở Danh sách biên lai và Công khai nguồn quỹ: nay hoạt động cả với biên lai cũ — phần mềm tự gắn Đối tượng cho biên lai cũ dựa vào địa chỉ (ví dụ \"KP5\", \"…- Khu phố 18\") đúng 1 lần khi mở lần đầu sau khi cập nhật, có tạo bản sao lưu trước khi sửa; biên lai không xác định được Đối tượng vẫn giữ ở nhóm \"Khác\""
   ]
 }
