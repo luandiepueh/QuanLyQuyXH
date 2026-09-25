@@ -1,5 +1,19 @@
 [
     {
+        "version":  "F1.1.13",
+        "release_date":  "2026-09-25",
+        "changelog":  [
+                          "Sửa lỗi và nâng cao độ ổn định khi dùng chung với Thủ quỹ qua WiFi",
+                          "Mới — Logo chìm trên chứng từ in (Tiện ích → Logo chìm chứng từ): tải lên logo đơn vị để in mờ dưới nền Phiếu thu/Phiếu chi và Biên lai; tự chọn mức độ đậm nhạt, kích thước logo và loại chứng từ áp dụng",
+                          "Thủ quỹ nhập biên lai qua WiFi: sửa lỗi làm máy kế toán bị đứng/không thao tác được trong lúc thủ quỹ đang mở trang hoặc mạng WiFi chập chờn — giờ kế toán và thủ quỹ làm việc song song bình thường",
+                          "Sửa lỗi để trang nhập liệu mở lâu (quá 1 giờ) rồi bấm Lưu bị báo \"CSRF token has expired\" và mất dữ liệu vừa nhập",
+                          "Danh sách biên lai: bộ lọc theo Đối tượng nay tính đúng cả biên lai nhận Đối tượng qua bảng kê/phiếu thu đã chuyển, khớp với số liệu Bảng thi đua Thu vận động",
+                          "Biên lai, chứng từ kế toán, phiếu kho: chặn lưu khi Đợt vận động đã chọn không còn tồn tại (trước đây chỉ chặn đợt đã khóa)",
+                          "Biên lai đã hủy: hiện lý do hủy, người hủy và thời điểm hủy ngay tại Danh sách biên lai; in lại (in lẻ hoặc in hàng loạt) có dấu \"ĐÃ HỦY\" kèm lý do và không còn in mã QR xác thực",
+                          "Fix lỗi kỹ thuật"
+                      ]
+    },
+    {
         "version":  "F1.1.12",
         "release_date":  "2026-09-23",
         "changelog":  [
