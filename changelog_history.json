@@ -1,5 +1,18 @@
 [
     {
+        "version":  "F1.1.14",
+        "release_date":  "2026-09-26",
+        "changelog":  [
+                          "Fix lỗi hiển thị ở báo cáo tháng quỹ Biển Đảo",
+                          "Sửa lỗi Báo nợ bị báo \"Số dư TK ngân hàng không đủ\" dù tài khoản vẫn đủ tiền (khi số tiền chi lớn hơn một nửa số dư)",
+                          "Phiếu kế toán (GS): kiểm tra số dư tài khoản ngân hàng khi lưu và khi sửa, không để tài khoản ngân hàng bị âm",
+                          "Quỹ Biển Đảo: báo cáo tháng, Sổ chi quản lý quỹ và Trang tổng quan trừ đúng các khoản hoàn chi phí quản lý (TK 6422), ba nơi cùng một số liệu",
+                          "Xuất Excel báo cáo tháng Biển Đảo và Cứu trợ: thêm dòng Lũy kế giống trên màn hình; sửa tiêu đề khi lọc nhiều tháng (ví dụ 01/01–31/08) không còn ghi nhầm \"Tháng 1\"",
+                          "Bảng kê biên lai: biên lai đã hủy trong ngày nay hiện trong bảng kê với số tiền 0 đ kèm lý do hủy, để dãy số biên lai liền mạch khi in và nộp lưu",
+                          "Danh sách biên lai và Bảng kê: có cảnh báo khi phát hiện biên lai đã hủy chưa nằm trong bảng kê nào, kèm nút bổ sung nhanh vào bảng kê gần nhất"
+                      ]
+    },
+    {
         "version":  "F1.1.13",
         "release_date":  "2026-09-25",
         "changelog":  [
