@@ -1,14 +1,27 @@
 {
-  "version": "F1.1.14",
-  "release_date": "2026-09-26",
-  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.1.14/QuanLyQuyXH_F1.1.14.zip",
+  "version": "F1.1.15",
+  "release_date": "2026-10-03",
+  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.1.15/QuanLyQuyXH_F1.1.15.zip",
   "changelog": [
-    "Fix lỗi hiển thị ở báo cáo tháng quỹ Biển Đảo",
-    "Sửa lỗi Báo nợ bị báo \"Số dư TK ngân hàng không đủ\" dù tài khoản vẫn đủ tiền (khi số tiền chi lớn hơn một nửa số dư)",
-    "Phiếu kế toán (GS): kiểm tra số dư tài khoản ngân hàng khi lưu và khi sửa, không để tài khoản ngân hàng bị âm",
-    "Quỹ Biển Đảo: báo cáo tháng, Sổ chi quản lý quỹ và Trang tổng quan trừ đúng các khoản hoàn chi phí quản lý (TK 6422), ba nơi cùng một số liệu",
-    "Xuất Excel báo cáo tháng Biển Đảo và Cứu trợ: thêm dòng Lũy kế giống trên màn hình; sửa tiêu đề khi lọc nhiều tháng (ví dụ 01/01–31/08) không còn ghi nhầm \"Tháng 1\"",
-    "Bảng kê biên lai: biên lai đã hủy trong ngày nay hiện trong bảng kê với số tiền 0 đ kèm lý do hủy, để dãy số biên lai liền mạch khi in và nộp lưu",
-    "Danh sách biên lai và Bảng kê: có cảnh báo khi phát hiện biên lai đã hủy chưa nằm trong bảng kê nào, kèm nút bổ sung nhanh vào bảng kê gần nhất"
-  ]
+    "Thủ quỹ dùng điện thoại qua WiFi: khi phần mềm hết hạn dùng thử hoặc chưa kích hoạt bản quyền, điện thoại hiện thông báo \"Phần mềm chưa kích hoạt bản quyền — liên hệ kế toán\" kèm nút Đăng xuất, không còn báo lỗi \"quá nhiều chuyển hướng\"",
+    "Tăng bảo mật khi chia sẻ qua WiFi: máy lạ cùng mạng chưa đăng nhập không còn xem/in được biên lai và chứng từ, không mở được Phiếu kế toán (GS), không tải được nhật ký lỗi và không tạo được quỹ mới. Thủ quỹ đã đăng nhập vẫn in biên lai bình thường",
+    "Sổ Tài trợ có địa chỉ (S27-CT) và số liệu \"Hôm nay / Tháng này\" trên trang thủ quỹ: không còn tính biên lai đã hủy",
+    "Số chứng từ tự sinh không còn bị nhảy (ví dụ thành PC2027) khi trong năm có chứng từ tự đặt số khác định dạng; phiếu thu lập từ biên lai được đánh số đúng dạng PT0008",
+    "Form Báo Có / Báo Nợ: dòng \"Số dư hiện tại\" tính đủ các tài khoản ngân hàng con (11211, 11212...). Kiểm kê quỹ tiền mặt lấy số dư đúng phạm vi Sổ quỹ tiền mặt",
+    "Nhật ký lỗi của phần mềm được lưu lại trong thư mục logs cạnh file chạy, không còn bị xoá sau mỗi lần tắt — giúp hỗ trợ nhanh hơn khi có sự cố",
+    "Khóa sổ cuối năm theo TT 41/2022: thặng dư được kết chuyển vào TK 412 – Nguồn vốn hoạt động xã hội, từ thiện; báo cáo B02 dòng 581/582 và B01 dòng 353 tính theo số thực tế. Mọi lần khóa sổ đều hiện trang xác nhận các bút toán sẽ tạo",
+    "Đơn vị đã khóa sổ năm 2025 bằng phiên bản cũ, hoặc sau khóa sổ còn tài khoản thu/chi chưa kết chuyển hết (như lãi tiền gửi): phần mềm hiện thông báo vàng. Bấm nút trên thông báo, trang Chuyển niên độ điền sẵn đúng năm và hướng dẫn từng bước mở khóa năm 2025 rồi khóa lại để phần mềm tự kết chuyển sang TK 412",
+    "Quỹ Biển Đảo: khi khóa sổ, kinh phí quản lý bộ máy chưa sử dụng (trong hạn mức tối đa 10%) được kết chuyển sang TK 414 và theo dõi trên TK 005 ngoài bảng",
+    "Số dư đầu kỳ còn ghi thặng dư ở TK 421: phần mềm hiện thông báo kèm nút chuyển sang TK 412 – Nguồn vốn hoạt động xã hội, từ thiện theo TT 41/2022 (tổng tiền không đổi, có lưu nhật ký)",
+    "Chặn nhập sai: số dư đầu kỳ không nhận tài khoản thu, chi, kết quả (loại 5–9); chứng từ không được ghi lẫn tài khoản ngoài bảng (như 005) với tài khoản trong bảng. Khi khóa sổ, phần mềm liệt kê dữ liệu cũ bị sai loại này để kiểm tra trước",
+    "Chứng từ tạo từ phiên bản rất cũ chưa ghi năm tài chính được tự gán đúng năm khi nâng cấp — tránh trùng số phiếu",
+    "Sổ thu, Sổ chi khớp đúng phát sinh các tài khoản thu, chi (kể cả lãi tiền gửi, thu khác, chi quản lý)",
+    "Báo cáo lưu chuyển tiền tệ (B03) cảnh báo các chứng từ gộp nhiều nghiệp vụ có thể làm sai chỉ tiêu, kèm danh sách để kiểm tra",
+    "Mở một chứng từ thuộc niên độ khác sẽ báo rõ thay vì hiện nhầm phiếu khác; phiếu cũ không có mục lục hiển thị đúng định khoản",
+    "An toàn dữ liệu: tự sao lưu trước khi nâng cấp và tự khôi phục nếu lỗi; cập nhật phần mềm kiểm tra toàn vẹn gói cài và tự quay về bản cũ khi lỗi; chuyển bảng kê biên lai thành phiếu thu không còn tạo phiếu trùng; dữ liệu tự chặn bút toán số âm và số dư đầu kỳ trùng",
+    "Biên lai: Kế toán sửa được NGÀY biên lai chưa vào bảng kê (ví dụ thu tiền ngày 01/10 nhưng ngày 03/10 mới nhập máy) — bắt buộc ghi lý do, lưu nhật ký hệ thống, cảnh báo nếu thứ tự số và ngày biên lai bị lệch; nhớ in lại biên lai sau khi sửa. Thủ quỹ không sửa được ngày",
+    "Sửa lỗi phục hồi dữ liệu MỘT quỹ từ file sao lưu (.zip) luôn báo \"file đang được sử dụng\" — nay phục hồi bình thường; phục hồi toàn bộ các quỹ không bị ảnh hưởng"
+  ],
+  "sha256": "9e1473199c80927da4da33eaec07db408c9827744b5b6c1383a06cf9559f7dd1",
+  "size": 58913615
 }
