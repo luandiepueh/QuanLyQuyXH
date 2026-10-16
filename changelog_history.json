@@ -1,5 +1,33 @@
 [
     {
+        "version":  "F1.1.17",
+        "release_date":  "2026-10-16",
+        "changelog":  [
+                          "Thanh tiến độ khi xuất Excel: hiện đang tổng hợp số liệu hay đang ghi tệp, đã ghi bao nhiêu dòng, đã chạy bao lâu và còn khoảng bao lâu",
+                          "Xuất Excel sổ nhiều chứng từ nhanh hơn nhiều (Sổ tiền gửi ngân hàng cả năm nhanh hơn khoảng 3 lần); sổ vượt giới hạn 1.048.576 dòng của Excel thì phần mềm báo xuất theo quý hoặc tháng thay vì báo lỗi",
+                          "Tăng tốc mạnh khi dữ liệu lớn: trang chủ, báo cáo tháng, bảng cân đối tài khoản, báo cáo tài chính B01–B04, báo cáo thu chi theo tiền, Kiểm tra dữ liệu, mở phần mềm và chuyển quỹ, chuyển niên độ, tra cứu chứng từ, màn Báo Có / Báo Nợ",
+                          "Chống lưu trùng chứng từ khi bấm Lưu 2 lần liên tiếp",
+                          "Nhập chứng từ nhanh hơn: Enter chuyển sang ô kế tiếp, gõ để lọc Mục lục / Đối tượng, phím tắt thêm / xóa dòng, hoàn tác khi lỡ xóa dòng, gợi ý diễn giải đã dùng, cảnh báo chứng từ có vẻ bị nhập trùng",
+                          "Báo Có / Báo Nợ: hiện logo ngân hàng, ghim ngân hàng hay dùng làm mặc định, tab \"Tất cả\" chuyển xuống cuối",
+                          "Thêm chức năng Hủy chuyển niên độ (chỉ quản trị, có xác nhận và ghi nhật ký) khi lỡ khóa sổ nhầm năm; in được bút toán kết chuyển của từng năm",
+                          "Tài khoản ngân hàng / nguồn tiền thứ 10 trở đi được cấp mã đúng (1121010…); Kiểm tra dữ liệu báo mã cũ bị trùng đầu mã",
+                          "Biên lai và màn thủ quỹ hiện số tiền theo kiểu Việt Nam (5.000.000, 63,33 USD)",
+                          "Sửa lỗi báo cáo tháng cảnh báo nhầm \"tồn cuối kỳ lệch\" khi tài khoản 138 / 141 / 338 còn số dư từ năm trước",
+                          "Sửa số Thu hộ / Chi hộ trên trang chủ: trừ phần đã chuyển thành thu, chi của quỹ",
+                          "Sửa báo cáo thu chi theo tiền: bút toán chuyển từ tài khoản trung gian (141, 138, 338, 337) sang chi / thu lên đúng mục",
+                          "Phần mềm tự kiểm tra định kỳ các bảng số liệu tổng hợp và tự sửa nếu lệch (Hệ thống › Kiểm tra dữ liệu › Bảng tổng)",
+                          "Cửa sổ cập nhật phần mềm hiện tiến độ, dặn không tắt cửa sổ và tự đóng khi xong (áp dụng từ lần cập nhật sau bản này)",
+                          "Giao diện nhẹ và mượt hơn: bỏ hiệu ứng kính mờ, logo thu nhỏ, trang tải nhanh hơn",
+                          "Kho hàng theo Thông tư 41/2022: chọn nghiệp vụ nhập (nhận tài trợ / mua ngoài) và xuất (xuất dùng / thiếu khi kiểm kê); giá xuất tự tính bình quân; chặn xuất quá số tồn; số lượng có số lẻ (1,5 kg)",
+                          "Kho: hiện vật không xác định được giá trị (mì tôm, quần áo...) chỉ theo dõi số lượng, không ghi sổ; mặt hàng chọn tài khoản kho (hiện vật tài trợ / vật tư khác) để lên đúng Báo cáo tình hình tài chính",
+                          "Kho: Sổ kho (S14), Sổ chi tiết vật liệu hàng hóa (S15), Bảng tổng hợp chi tiết (S16) đúng mẫu, có đối chiếu Sổ Cái và xuất Excel; nhập tồn kho đầu kỳ khi bắt đầu dùng",
+                          "Sổ ngoại tệ S13: số theo kiểu Việt Nam, thêm cột Ghi chú, cộng phát sinh từng tháng và lũy kế từ đầu năm",
+                          "Sửa cột TK đối ứng trên Sổ Cái, Sổ quỹ tiền mặt, Sổ tiền gửi: chứng từ nhiều dòng ghi đúng tài khoản ở vế đối diện",
+                          "Xuất Excel sổ lớn tốn ít bộ nhớ hơn",
+                          "Biên lai thu bằng ngoại tệ không in mã QR xác thực nữa (chỉ biên lai tiền Việt Nam đồng có QR)"
+                      ]
+    },
+    {
         "version":  "F1.1.16",
         "release_date":  "2026-10-11",
         "changelog":  [
