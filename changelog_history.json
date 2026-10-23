@@ -1,5 +1,27 @@
 [
     {
+        "version":  "F1.1.18",
+        "release_date":  "2026-10-23",
+        "changelog":  [
+                          "In bìa sổ: bìa ngoài và bìa lót cho sổ quỹ tiền mặt, sổ tiền gửi (mỗi tài khoản ngân hàng một bìa), nhật ký chung, sổ cái, bảng cân đối số phát sinh, sổ thu / sổ chi, sổ kho, báo cáo tài chính…; khổ A4 dọc hoặc ngang theo từng sổ; bấm nút \"In bìa\" trên sổ hoặc vào Sổ kế toán › In bìa sổ để in nhiều bìa một lượt",
+                          "Trợ lý khóa sổ (Hệ thống › Trợ lý khóa sổ): kiểm tra dữ liệu cả năm trước khi khóa sổ — chứng từ chưa ghi sổ, lệch Nợ/Có, sai năm, tài khoản không tồn tại, số chứng từ bị nhảy (kèm ai xóa, lúc nào), tiền mặt / tiền gửi bị âm, tạm ứng và kinh phí Thành phố còn dư, biên lai chưa lập bảng kê, phát sinh chưa gắn mục lục…; bấm mở thẳng chứng từ cần sửa",
+                          "Khóa sổ: trang xác nhận hiện các mục Trợ lý khóa sổ báo; nếu đã kiểm tra và chấp nhận thì tích xác nhận là vẫn khóa sổ được (được ghi vào Nhật ký hệ thống)",
+                          "Khóa sổ: chọn cách xử lý số dư tài khoản 421 còn lại — chuyển hết sang 412 (như trước), chuyển một phần theo nghị quyết, hoặc giữ lại",
+                          "Kinh phí hỗ trợ phường/xã: xuất file Dịch vụ công Kho bạc cả đợt — mỗi phường/xã một file đặt tên theo phường/xã, xếp theo tên, kèm danh sách Excel để đánh dấu đã tải lên cổng",
+                          "Báo cáo tài chính trình bày đúng hệ thống tài khoản Thông tư 41/2022: doanh thu ngân sách nhà nước cấp (TK 512) lên đúng dòng; đầu tư tài chính tách trái phiếu / tiền gửi tiết kiệm / đầu tư khác; hao mòn tài sản cố định vô hình lên đúng dòng; chi phí khác gồm cả tài khoản chi tiết; báo cáo kết quả hoạt động có số \"Bổ sung khác\"; báo cáo lưu chuyển tiền tệ tách đúng tiền thu từ ngân sách cấp",
+                          "Khóa sổ kết chuyển đủ cả các tài khoản 512, 531, 632, 821 (nếu đơn vị có dùng)",
+                          "Đơn vị loại hình Tỉnh/Thành phố: tiêu đề sổ và báo cáo ghi tên tỉnh/thành phố đang chọn",
+                          "Trang xác nhận khóa sổ mở nhanh hơn khi dữ liệu lớn",
+                          "Báo cáo tình hình tài chính: các khoản phải thu / phải trả (người bán, khách hàng, tạm ứng, phải thu khác, kinh phí phường/xã) không còn bù trừ giữa các đối tượng — đối tượng còn nợ lên phần tài sản, đối tượng trả trước / trả thừa lên phần nợ phải trả, đúng Thông tư 41/2022",
+                          "Tiền gửi tiết kiệm kỳ hạn gốc không quá 3 tháng: tích ô \"Kỳ hạn gốc không quá 3 tháng\" khi khai báo tài khoản trong Danh mục tài khoản, báo cáo tài chính tự đưa vào \"Các khoản tương đương tiền\"; màn sửa tài khoản hiện sẵn tên và tài khoản mẹ đang có",
+                          "Ngoại tệ: thêm nghiệp vụ Nộp / rút / chuyển — nộp tiền mặt ngoại tệ vào tài khoản ngân hàng ngoại tệ, rút về quỹ, hoặc chuyển giữa 2 tài khoản ngoại tệ; phần mềm tự tính theo tỷ giá ghi sổ, không phát sinh lãi/lỗ tỷ giá",
+                          "Ngoại tệ và Kho: lịch sử chứng từ lọc được theo nghiệp vụ, loại tiền / mặt hàng, số chứng từ, diễn giải, người giao nhận, từ ngày – đến ngày; phiếu kho chia trang khi nhiều",
+                          "Ngoại tệ và Kho: nút Sao chép — lập phiếu mới có sẵn nội dung phiếu cũ (ngày lấy hôm nay, phiếu xuất kho tự tính lại đơn giá), kiểm tra rồi bấm Lưu",
+                          "Mua / bán ngoại tệ: không phải chọn mục lục — phí ngân hàng tự vào mục chi quản lý quỹ, lãi tỷ giá khi bán tự vào mục Thu khác; số tiền chứng từ gồm cả phí; số chi theo mục ở trang chủ không còn cộng nhầm tiền mua/bán ngoại tệ",
+                          "Chi bằng ngoại tệ có lãi tỷ giá: phần lãi tự vào mục Thu khác (sổ thu, báo cáo tháng), không còn nằm ở \"Khác — chưa phân loại\"; phiếu chi cũ được tự sắp xếp lại khi mở quỹ (năm đã khóa sổ giữ nguyên)"
+                      ]
+    },
+    {
         "version":  "F1.1.17",
         "release_date":  "2026-10-16",
         "changelog":  [
