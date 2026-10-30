@@ -1,5 +1,19 @@
 [
     {
+        "version": "F1.1.20",
+        "release_date": "2026-10-30",
+        "changelog": [
+            "Sửa lỗi cập nhật phải chờ lâu rồi mở lại bản cũ. Riêng lần này: nếu cửa sổ đen hiện lâu mà phần mềm chưa mở, anh/chị nhấp đúp biểu tượng phần mềm để mở",
+            "Có thêm Quỹ An sinh xã hội (liên hệ tác giả để cấp mã sử dụng)",
+            "Giao diện mới, chữ rõ hơn, gọn trên màn hình nhỏ; Trợ lý Bông chuyển lên thanh menu",
+            "Sổ quỹ tiền mặt và Sổ tiền gửi theo đúng mẫu Thông tư 41/2022 (dòng cộng ngày/tháng/luỹ kế, đánh số trang)",
+            "Dòng \"…, ngày … tháng … năm …\" ghi địa danh theo Nghị định 30/2020; sửa được ở Hệ thống › Thông tin đơn vị",
+            "Báo cáo tháng, Báo cáo thu chi: có nút \"Độ rộng cột mặc định\"; số tiền lớn không còn đè ô",
+            "Sửa lỗi đồng bộ thu tiền Khu phố lưu nhầm biên lai Cứu trợ/Biển Đảo vào quỹ đang mở",
+            "Sửa một số lỗi nhỏ (chữ \"None\" trên phiếu, dấu ngăn nghìn khi nhập sao kê…)"
+        ]
+    },
+    {
         "version": "F1.1.19",
         "release_date": "2026-10-27",
         "changelog": [

@@ -1,18 +1,17 @@
 {
-  "version": "F1.1.19",
-  "release_date": "2026-10-27",
-  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.1.19/QuanLyQuyXH_F1.1.19.zip",
+  "version": "F1.1.20",
+  "release_date": "2026-10-30",
+  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.1.20/QuanLyQuyXH_F1.1.20.zip",
   "changelog": [
-    "Sửa lỗi hiển thị số tiền VNĐ khi nhập biên lai từ Excel",
-    "Sửa lỗi in biên lai hàng loạt: nút \"In biên lai đã chọn\" mở trang báo lỗi thay vì trang in; nút trên trang in đổi thành \"Quay lại\" để trở về danh sách",
-    "Biên lai, giấy xác nhận chuyển khoản: đọc số thành chữ đúng tiếng Việt (21.000 \"hai mươi mốt nghìn\", 25.000 \"hai mươi lăm nghìn\")",
-    "Giấy xác nhận chuyển khoản: Quỹ Vì Biển Đảo Quê Hương ghi đủ tên \"Vì Biển Đảo Quê Hương - Vì tuyến đầu Tổ quốc\" và đúng mục đích sử dụng của quỹ; Quỹ Cứu trợ ghi đúng mục đích cứu trợ; tên tổ chức hỗ trợ và mã số thuế, địa chỉ… mỗi thông tin một dòng, không còn xuống dòng lộn xộn; chỉ in cho Báo Có đã ghi sổ",
-    "Quỹ Vì người nghèo: mục thu 22.03 đổi tên thành \"Thu tài trợ Đ/C khác\", tài khoản 5112 thành \"Thu tài trợ điều chuyển\" (mã giữ nguyên, tên đơn vị tự đặt được giữ)",
-    "Chặn chi vượt số dư: phiếu chi làm tiền mặt / tiền gửi bị âm ở các ngày sau (không chỉ ngày lập phiếu) sẽ bị chặn; xóa hoặc sửa khoản thu làm âm các ngày sau thì có cảnh báo và ghi Nhật ký hệ thống",
-    "Mật khẩu: đăng nhập bằng mật khẩu mặc định 123456 sẽ được nhắc đổi; quên mật khẩu có thể xin mã phục hồi từ tác giả ngay tại màn đăng nhập (\"Quên mật khẩu?\")",
-    "Sửa lỗi bản F1.1.18 trên một số máy: phần mềm không mở được cửa sổ riêng mà chạy trong trình duyệt, khi đó xuất Excel / sao lưu quay mãi không xong",
-    "Trang Kiểm tra cập nhật: nút \"Tải về và cài đặt\" nằm ngay cạnh nút kiểm tra"
+    "Sửa lỗi cập nhật phải chờ lâu rồi mở lại bản cũ. Riêng lần này: nếu cửa sổ đen hiện lâu mà phần mềm chưa mở, anh/chị nhấp đúp biểu tượng phần mềm để mở",
+    "Có thêm Quỹ An sinh xã hội (liên hệ tác giả để cấp mã sử dụng)",
+    "Giao diện mới, chữ rõ hơn, gọn trên màn hình nhỏ; Trợ lý Bông chuyển lên thanh menu",
+    "Sổ quỹ tiền mặt và Sổ tiền gửi theo đúng mẫu Thông tư 41/2022 (dòng cộng ngày/tháng/luỹ kế, đánh số trang)",
+    "Dòng \"…, ngày … tháng … năm …\" ghi địa danh theo Nghị định 30/2020; sửa được ở Hệ thống › Thông tin đơn vị",
+    "Báo cáo tháng, Báo cáo thu chi: có nút \"Độ rộng cột mặc định\"; số tiền lớn không còn đè ô",
+    "Sửa lỗi đồng bộ thu tiền Khu phố lưu nhầm biên lai Cứu trợ/Biển Đảo vào quỹ đang mở",
+    "Sửa một số lỗi nhỏ (chữ \"None\" trên phiếu, dấu ngăn nghìn khi nhập sao kê…)"
   ],
-  "sha256": "cdd6204f6ee98e6b66df3f4ebf589dce724dd4238ed7c422078696497aaf2448",
-  "size": 58524408
+  "sha256": "604d2e13ee7a2655a6018212b3b08d8acfc69347b5cf34ae0eb0d6886c45fa24",
+  "size": 58904577
 }
