@@ -1,17 +1,15 @@
 {
-  "version": "F1.1.20",
-  "release_date": "2026-10-30",
-  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.1.20/QuanLyQuyXH_F1.1.20.zip",
+  "version": "F1.1.21",
+  "release_date": "2026-11-01",
+  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.1.21/QuanLyQuyXH_F1.1.21.zip",
   "changelog": [
-    "Sửa lỗi cập nhật phải chờ lâu rồi mở lại bản cũ. Riêng lần này: nếu cửa sổ đen hiện lâu mà phần mềm chưa mở, anh/chị nhấp đúp biểu tượng phần mềm để mở",
-    "Có thêm Quỹ An sinh xã hội (liên hệ tác giả để cấp mã sử dụng)",
-    "Giao diện mới, chữ rõ hơn, gọn trên màn hình nhỏ; Trợ lý Bông chuyển lên thanh menu",
-    "Sổ quỹ tiền mặt và Sổ tiền gửi theo đúng mẫu Thông tư 41/2022 (dòng cộng ngày/tháng/luỹ kế, đánh số trang)",
-    "Dòng \"…, ngày … tháng … năm …\" ghi địa danh theo Nghị định 30/2020; sửa được ở Hệ thống › Thông tin đơn vị",
-    "Báo cáo tháng, Báo cáo thu chi: có nút \"Độ rộng cột mặc định\"; số tiền lớn không còn đè ô",
-    "Sửa lỗi đồng bộ thu tiền Khu phố lưu nhầm biên lai Cứu trợ/Biển Đảo vào quỹ đang mở",
-    "Sửa một số lỗi nhỏ (chữ \"None\" trên phiếu, dấu ngăn nghìn khi nhập sao kê…)"
+    "Báo cáo tháng theo mẫu Công văn 2837 (TP.HCM) cho Quỹ Vì người nghèo và Quỹ Biển Đảo: xem, lưu, in giấy ngang/đứng, đơn vị đồng/nghìn đồng, xuất Excel đúng mẫu",
+    "Nhập sao kê ngân hàng: khoản tiền vào chọn được loại nghiệp vụ — phường/xã hoàn trả kinh phí chưa quyết toán, hoặc thu hồi khoản đã chi (trừ đúng vào mục chi trên báo cáo)",
+    "Thu hồi khoản đã chi: nhận cả chứng từ quyết toán kinh phí phường/xã, kể cả quyết toán theo danh sách (chọn phường/xã nộp lại)",
+    "Phiếu thu/Báo Có ghi giảm tài khoản chi: phần mềm nhắc dùng \"Thu hồi khoản đã chi\" để báo cáo theo mục lục không bị lệch",
+    "Phiếu chi/Báo nợ nhiều dòng: chọn được Phạm vi điều chuyển cho mục điều chuyển (trước đây luôn \"Chưa xác định\")",
+    "Sửa lỗi nhập sao kê có thể ghi khoản thu vào mục chi"
   ],
-  "sha256": "604d2e13ee7a2655a6018212b3b08d8acfc69347b5cf34ae0eb0d6886c45fa24",
-  "size": 58904577
+  "sha256": "09b9731dfb1fbdbba51252f1b14fe79381d01e9883d2b58390fd7134e65a6d77",
+  "size": 58985880
 }
