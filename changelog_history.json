@@ -1,5 +1,23 @@
 [
     {
+        "version": "F1.1.22",
+        "release_date": "2026-11-05",
+        "changelog": [
+            "Chứng từ ghi sổ có \"Nghiệp vụ mẫu\": Thanh toán tạm ứng — chọn người tạm ứng và mục chi, phần mềm tự định khoản (Nợ chi / Có 141), hiện số dư tạm ứng của người đó và gợi ý lập phiếu thu hồi phần còn thừa (tiền mặt hoặc chuyển khoản) hoặc phiếu chi bổ sung phần thiếu",
+            "Nghiệp vụ mẫu \"Ghi nhận chi chưa thanh toán\" (Nợ chi / Có 331) khi đã nhận hàng hóa, dịch vụ nhưng chưa trả tiền — phần mềm gợi ý lập phiếu trả tiền sau đó",
+            "Tra cứu chứng từ: tìm theo nội dung (gõ có dấu hoặc không dấu đều được), lọc tài khoản theo bên Nợ/Có (tài khoản tổng hợp gồm cả tài khoản chi tiết), lọc theo mục lục từng dòng, trạng thái, đối tượng, loại tiền, mặt hàng kho",
+            "Báo cáo tháng mẫu CV 2837: tính số liệu trong kỳ — theo tháng hoặc khoảng ngày trong cùng năm",
+            "Số dư đầu kỳ: hiện tổng Nợ, tổng Có, chênh lệch và cảnh báo khi chưa cân đối; tài khoản ngoài bảng (005, 007) không còn làm báo lệch",
+            "Đồng bộ Khu phố: không lập trùng biên lai cho cùng một dòng Google Sheet; dòng chưa lập được biên lai (bỏ chọn, thiếu tên hoặc số tiền) được giữ lại trên Sheet để khu phố sửa; thêm nút \"Loại\" để bỏ hẳn một dòng",
+            "Chặn chi quá số tiền mặt cả ở Báo Có nộp tiền vào ngân hàng, chứng từ ghi sổ, phiếu kế toán và sao chép chứng từ; nhập Excel tiền mặt và sao kê ngân hàng kiểm số dư theo từng ngày (không cho chi khi quỹ chưa có tiền hoặc làm âm các ngày sau)",
+            "Sổ sách, báo cáo: thanh công cụ và dòng tiêu đề cột luôn hiện khi cuộn; chân trang hiện tên quỹ, không còn đè chữ khi tên đơn vị dài",
+            "In phiếu thu kèm danh sách nhiều biên lai: phiếu in trọn trang đầu, danh sách sang trang sau",
+            "Sửa chứng từ ghi sổ do chức năng khác lập (kinh phí phường/xã, thu hồi…): phần mềm cảnh báo và hỏi lại trước khi sửa",
+            "Sửa lỗi: tài khoản ngân hàng khai báo từ bản rất cũ (chưa có mã kế toán) nay được cấp mã tự động; menu tô sáng đúng ở trang Kho, Tiện ích, Đánh lại số chứng từ",
+            "Biểu tượng phần mềm mới"
+        ]
+    },
+    {
         "version": "F1.1.21",
         "release_date": "2026-11-01",
         "changelog": [
