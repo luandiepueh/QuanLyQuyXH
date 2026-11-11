@@ -1,5 +1,17 @@
 [
     {
+        "version": "F1.1.23",
+        "release_date": "2026-11-11",
+        "changelog": [
+            "Phiếu chi/Báo nợ (Quỹ Vì người nghèo, Quỹ Biển Đảo): chọn \"chi từ nguồn Thành phố hỗ trợ\" bằng nút trên từng dòng, cạnh các nút số lượng/xóa/thêm dòng (bỏ công tắc chung, trước đây phải chọn dòng rồi mới bật được); dưới bảng có dòng hướng dẫn, tổng số tiền chi nguồn Thành phố và cảnh báo khi vượt số dư nguồn Thành phố còn lại",
+            "Sổ theo dõi nguồn Thành phố hỗ trợ (menu Báo cáo, dưới Báo cáo sử dụng kinh phí Thành phố; ngoài TP.HCM là \"nguồn cấp trên\"): theo dõi theo thời gian số nhận, số chi hỗ trợ, số hoàn trả và số còn lại; bảng tổng hợp chi theo mục lục; in và xuất Excel",
+            "Báo cáo tháng mẫu CV 2837: lưu và cấp số hiệu được cả báo cáo theo khoảng ngày (trước đây chỉ lưu được báo cáo theo tháng)",
+            "Báo cáo sử dụng kinh phí Thành phố: thêm dòng \"Nội dung hỗ trợ\" (điền sẵn từ diễn giải Báo Có, sửa lại được cho đúng số quyết định, ngày…), lưu cùng báo cáo; câu cuối ghi gửi \"01 bộ photo sao y\" chứng từ gốc về Quỹ Thành phố",
+            "Quỹ Biển Đảo — hạn mức chi quản lý 10%: khoản chi từ nguồn Thành phố hỗ trợ không còn được tính vào số chi làm căn cứ tính hạn mức (bảng theo dõi trên Trang chủ, trích kinh phí quản lý khi khóa sổ, trần TK 005); năm đã khóa sổ không thay đổi",
+            "In phiếu thu kèm danh sách: danh sách ít biên lai nhưng nội dung dài, không vừa một trang, nay tự in tách (phiếu trọn trang đầu, danh sách sang trang sau) thay vì bị cắt"
+        ]
+    },
+    {
         "version": "F1.1.22",
         "release_date": "2026-11-05",
         "changelog": [
