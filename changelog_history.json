@@ -1,5 +1,15 @@
 [
     {
+        "version": "F1.1.24",
+        "release_date": "2026-11-26",
+        "changelog": [
+            "Biên lai: lỡ bấm \"Hủy\" thay vì \"Xóa\" thì nay xóa hẳn được biên lai đã hủy để cấp lại số (từng biên lai hoặc cả loạt đang hiển thị). Mọi thao tác xóa hẳn biên lai (kể cả xóa bảng kê kèm biên lai) phải ghi lý do, tích xác nhận chịu trách nhiệm và nhập mật khẩu tài khoản (sai 5 lần tạm khóa 15 phút); không xóa được biên lai của năm đã khóa sổ; nhật ký hệ thống lưu lại đầy đủ nội dung biên lai đã xóa",
+            "Khóa sổ cuối năm: còn biên lai chưa nộp/bảng kê chưa lập phiếu thu thì trang xác nhận khóa sổ liệt kê riêng và yêu cầu tích xác nhận \"đã kiểm tra chứng từ cuối năm và chịu trách nhiệm\" (không chặn khóa sổ)",
+            "Phiếu chi/Báo nợ (Quỹ Vì người nghèo, Quỹ Biển Đảo): ở danh sách lịch sử bên phải và màn Tra cứu chứng từ, phiếu chi từ nguồn Thành phố hỗ trợ (Nợ TK 337) có biểu tượng tòa nhà màu vàng cạnh số phiếu (viền đứt nét = chỉ một phần phiếu chi từ nguồn Thành phố; rê chuột để xem số tiền); gõ \"tp\" hoặc \"337\" vào ô tìm để lọc nhanh các phiếu này",
+            "Ô tìm ở danh sách lịch sử phiếu chi/báo nợ/phiếu thu/báo có nay tìm được theo tên người nhận/người nộp"
+        ]
+    },
+    {
         "version": "F1.1.23",
         "release_date": "2026-11-11",
         "changelog": [

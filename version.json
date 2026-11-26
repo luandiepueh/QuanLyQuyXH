@@ -1,15 +1,13 @@
 {
-  "version": "F1.1.23",
-  "release_date": "2026-11-11",
-  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.1.23/QuanLyQuyXH_F1.1.23.zip",
+  "version": "F1.1.24",
+  "release_date": "2026-11-26",
+  "download_url": "https://github.com/luandiepueh/QuanLyQuyXH/releases/download/F1.1.24/QuanLyQuyXH_F1.1.24.zip",
   "changelog": [
-    "Phiếu chi/Báo nợ (Quỹ Vì người nghèo, Quỹ Biển Đảo): chọn \"chi từ nguồn Thành phố hỗ trợ\" bằng nút trên từng dòng, cạnh các nút số lượng/xóa/thêm dòng (bỏ công tắc chung, trước đây phải chọn dòng rồi mới bật được); dưới bảng có dòng hướng dẫn, tổng số tiền chi nguồn Thành phố và cảnh báo khi vượt số dư nguồn Thành phố còn lại",
-    "Sổ theo dõi nguồn Thành phố hỗ trợ (menu Báo cáo, dưới Báo cáo sử dụng kinh phí Thành phố; ngoài TP.HCM là \"nguồn cấp trên\"): theo dõi theo thời gian số nhận, số chi hỗ trợ, số hoàn trả và số còn lại; bảng tổng hợp chi theo mục lục; in và xuất Excel",
-    "Báo cáo tháng mẫu CV 2837: lưu và cấp số hiệu được cả báo cáo theo khoảng ngày (trước đây chỉ lưu được báo cáo theo tháng)",
-    "Báo cáo sử dụng kinh phí Thành phố: thêm dòng \"Nội dung hỗ trợ\" (điền sẵn từ diễn giải Báo Có, sửa lại được cho đúng số quyết định, ngày…), lưu cùng báo cáo; câu cuối ghi gửi \"01 bộ photo sao y\" chứng từ gốc về Quỹ Thành phố",
-    "Quỹ Biển Đảo — hạn mức chi quản lý 10%: khoản chi từ nguồn Thành phố hỗ trợ không còn được tính vào số chi làm căn cứ tính hạn mức (bảng theo dõi trên Trang chủ, trích kinh phí quản lý khi khóa sổ, trần TK 005); năm đã khóa sổ không thay đổi",
-    "In phiếu thu kèm danh sách: danh sách ít biên lai nhưng nội dung dài, không vừa một trang, nay tự in tách (phiếu trọn trang đầu, danh sách sang trang sau) thay vì bị cắt"
+    "Biên lai: lỡ bấm \"Hủy\" thay vì \"Xóa\" thì nay xóa hẳn được biên lai đã hủy để cấp lại số (từng biên lai hoặc cả loạt đang hiển thị). Mọi thao tác xóa hẳn biên lai (kể cả xóa bảng kê kèm biên lai) phải ghi lý do, tích xác nhận chịu trách nhiệm và nhập mật khẩu tài khoản (sai 5 lần tạm khóa 15 phút); không xóa được biên lai của năm đã khóa sổ; nhật ký hệ thống lưu lại đầy đủ nội dung biên lai đã xóa",
+    "Khóa sổ cuối năm: còn biên lai chưa nộp/bảng kê chưa lập phiếu thu thì trang xác nhận khóa sổ liệt kê riêng và yêu cầu tích xác nhận \"đã kiểm tra chứng từ cuối năm và chịu trách nhiệm\" (không chặn khóa sổ)",
+    "Phiếu chi/Báo nợ (Quỹ Vì người nghèo, Quỹ Biển Đảo): ở danh sách lịch sử bên phải và màn Tra cứu chứng từ, phiếu chi từ nguồn Thành phố hỗ trợ (Nợ TK 337) có biểu tượng tòa nhà màu vàng cạnh số phiếu (viền đứt nét = chỉ một phần phiếu chi từ nguồn Thành phố; rê chuột để xem số tiền); gõ \"tp\" hoặc \"337\" vào ô tìm để lọc nhanh các phiếu này",
+    "Ô tìm ở danh sách lịch sử phiếu chi/báo nợ/phiếu thu/báo có nay tìm được theo tên người nhận/người nộp"
   ],
-  "sha256": "666b57041ff8ee50c57e7b8b2f5454fd6ab0e5a93518186690b9c609e0534245",
-  "size": 58953748
+  "sha256": "cf40ab51b081c859379695cef29d2b4dcc5c5e4d860fd131bcf891cc6182c669",
+  "size": 58969169
 }
